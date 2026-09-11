@@ -69,6 +69,20 @@ Likely model after DNS migration:
 
 Do not publish credentials or mail secrets in this repository.
 
+## Aletheia wording / slogan idea
+
+Aletheia is not only about Markdown files. It is also about getting important project words, names, cues and concepts into durable places where an AI has a better chance of retrieving them later, including less visible memory/index/database layers as well as explicit files.
+
+Candidate slogan:
+
+> **Aletheia: Put the right words where AI can find them.**
+
+Supporting thought:
+
+> **Make memory findable.**
+
+The useful distinction is that Aletheia does not need to preserve every conversation verbatim. It should preserve enough durable cues, vocabulary, meanings and relationships for a later AI session to reconstruct the working context.
+
 ## Historical site material
 
 The old `/election/` material dates from the 2010 SwindonOrgUK political/protest project. Treat it as historical/archive content unless deliberately revived. Do not let old election material become the default landing route or current-site description.
