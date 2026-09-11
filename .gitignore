@@ -1,0 +1,23 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Local secrets / environment
+.env
+.env.*
+*.pem
+*.key
+secrets/
+private/
+
+# FTP/client-specific local state
+.vscode/
+.idea/
+
+# Generated caches
+.cache/
