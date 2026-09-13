@@ -123,6 +123,34 @@ Useful examples include handwritten notes hidden in lunch boxes or everyday obje
 
 The “free” rule means no purchase is required. It does not mean taking flowers or objects without permission.
 
+## Aletheia Love Analyst / relationship-guidance expansion
+
+**Status:** BUILD ON LOVE TRANSLATOR
+
+Extend Aletheia Love Translator beyond translating sentences. Add a **Relationship Analyst** layer that can describe both words and actions, while keeping every interpretation provisional.
+
+Useful inputs include repeated questioning, silence, delayed answers, fixing/problem-solving, listening, requests for space, gifts, touch, repeated apologies and repair attempts.
+
+Candidate output:
+
+```text
+OBSERVATION
+POSSIBLE INTERACTION PATTERN
+WHAT MAY BE BEHIND IT
+WHAT EACH PERSON MAY MISREAD
+LOVE CHANNEL vs COMMUNICATION TIMING
+WARNING
+SMALL EXPERIMENT
+REPAIR
+CALIBRATE
+```
+
+Important example: an immediate clarifier paired with a person who needs five or ten minutes to formulate an answer can create a self-reinforcing loop: more questioning increases pressure, more pressure increases withdrawal, and withdrawal triggers more questioning. Treat this as an interaction pattern, not a diagnosis of either person.
+
+Future resource/book bridge: after useful analysis, optionally link to one relevant book or evidence category rather than a generic shopping wall. Examples: conflict/repair -> *Fight Right*; apology -> *Why Won't You Apologize?*; love-channel vocabulary -> *The 5 Love Languages*. Advice and evidence come first; commercial links remain secondary and disclosed.
+
+Possible longer-term direction: a broader **Aletheia Relationship Analyst** using responsiveness, listening, repair, communication timing and repeated interaction loops, while keeping Love Translator as the simple front door.
+
 ## Historical site material
 
 The old `/election/` material dates from the 2010 SwindonOrgUK political/protest project. Treat it as historical/archive content unless deliberately revived. Do not let old election material become the default landing route or current-site description.
