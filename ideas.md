@@ -83,6 +83,46 @@ Supporting thought:
 
 The useful distinction is that Aletheia does not need to preserve every conversation verbatim. It should preserve enough durable cues, vocabulary, meanings and relationships for a later AI session to reconstruct the working context.
 
+## Thalia ASCII mark idea — `T-)`
+
+**Status:** TEST / PROPOSED
+
+Use **`T-)`** as a lightweight ASCII signature for a Thalia humour intervention.
+
+Why it may fit:
+
+- `T` identifies Thalia;
+- `-)` reads as a sideways smile/wink;
+- plain ASCII survives Markdown, HTML, terminals, READMEs and AI-to-AI handoffs;
+- unlike an image asset, it stays portable and searchable;
+- the mark can flag playful reinterpretation without replacing factual meaning.
+
+Possible experimental variants:
+
+- `T-)` — default Thalia smile;
+- `T-?` — questioning/playfully puzzled;
+- `T-!` — spotted something absurd;
+- `T-/` — sceptical;
+- `T-P` — cheekier variant.
+
+Keep the mark optional. Do not use it in serious, dangerous, grieving or otherwise humour-inappropriate contexts merely for branding.
+
+If testing works, propose it to the canonical Thalia Protocol rather than silently treating it as already canonical.
+
+## Free-first affection / repair idea
+
+A useful line from the Aletheia Love Translator work:
+
+> **The better free repair gifts are things like a handwritten note, making tea, doing a hated chore, picking a flower from your own garden, a photo, a playlist, a walk, or simply giving someone twenty uninterrupted minutes. T-)**
+
+Potential reusable principle:
+
+> **Attention can be a gift without becoming a purchase.**
+
+Useful examples include handwritten notes hidden in lunch boxes or everyday objects, small visual jokes such as smiley faces made from food, tea made the way somebody likes it, phone-free time, shared photos and memory-linked playlists.
+
+The “free” rule means no purchase is required. It does not mean taking flowers or objects without permission.
+
 ## Historical site material
 
 The old `/election/` material dates from the 2010 SwindonOrgUK political/protest project. Treat it as historical/archive content unless deliberately revived. Do not let old election material become the default landing route or current-site description.
