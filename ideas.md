@@ -4,12 +4,46 @@ Living ideas register for **Swindon.org.uk**. Keep ideas here until they are pro
 
 ## Working architecture
 
-- Swindon.org.uk remains the simple trusted front door.
+- Swindon.org.uk remains the simple trusted front door for the Swindon implementation.
 - GitHub is the durable source/history.
 - ChatGPT temporary site is a prototype/design workbench.
 - Cloudflare Pages preview is the dress rehearsal.
 - Cloudflare production serves the public domain when migration is complete.
 - Specialist apps or experiments can live on GitHub Pages, Cloudflare Pages, Google Sites or another suitable free/static service and be linked from Swindon.org.uk.
+
+## Aletheia system / repository split
+
+**Status:** PROPOSED ARCHITECTURE
+
+Aletheia has grown beyond one memory protocol and one local website. Keep the parts distinct rather than turning one repository into a cupboard where every cable lives.
+
+Proposed ownership:
+
+```text
+KarstenEvans/aletheia-protocol
+    canonical rules, memory/provenance behaviour, conformance
+
+KarstenEvans/aletheia-app
+    portable/runnable Aletheia apps and matching specifications
+
+KarstenEvans/aletheia          [proposed, not yet required]
+    main human-facing Aletheia website
+    Aletheia AI Easy bootstrap/setup
+    app discovery/manifest
+    learning/onboarding
+    provider adapters/instructions
+
+KarstenEvans/SwindonOrgUK
+    first real-world local implementation
+    Swindon A2Z / What's On / Food / Jobs / News / Meet / Resources
+    local reference/test case for reusable Aletheia tools
+```
+
+Use the public name **Aletheia**, not "Aletheia Hub". The absence of "Hub" also suits the distributed design: the system should keep working when no central Aletheia server exists.
+
+Swindon.org.uk can demonstrate the local pattern without baking Swindon into reusable Aletheia logic. A user-selected locality can instead be a variable such as Swindon, Northampton, Bognor Regis, Bangkok or Ayutthaya.
+
+Odysseus and other orchestration/agent systems may be useful adapters, but Aletheia's basic Markdown/static-HTML route should survive if any one external project disappears.
 
 ## Markdown-first page memory
 
@@ -83,7 +117,162 @@ Supporting thought:
 
 The useful distinction is that Aletheia does not need to preserve every conversation verbatim. It should preserve enough durable cues, vocabulary, meanings and relationships for a later AI session to reconstruct the working context.
 
-## Thalia ASCII mark idea — `T-)`
+## Roundabout menu refinement
+
+**Status:** REFINE, DO NOT REPLACE
+
+The Creator College "What's your why?" graphic and the Swindon roundabout menu share a useful radial-navigation idea, but the Swindon design should remain its own work and continue to evoke the Magic Roundabout.
+
+Possible visual improvements without copying their artwork:
+
+- keep the nine-arm Swindon structure and colourful roads;
+- use more empty space around each destination;
+- shorten secondary labels where possible;
+- consider small `01`-`09` destination numbers;
+- use cleaner, fatter destination cards/buttons;
+- reduce decorative clutter around the roads;
+- test a calmer cream/off-white background as well as the current light design;
+- retain a clear centre identity rather than changing to the Creator College wording/layout.
+
+A universal Aletheia version could reuse the radial-navigation concept with the centre asking **"What do you want to do?"**, while every optional module remains user-selected.
+
+## External learning / link-out library
+
+**Status:** BUILD CAREFULLY
+
+Swindon.org.uk and Aletheia do not need to recreate every useful public tutorial. If another creator has already explained something well, linking can be better than duplicating it.
+
+Working rule:
+
+- link to the authorised public source;
+- credit the creator/platform;
+- say why it is useful;
+- use the official YouTube embed where embedding is enabled, optionally privacy-enhanced;
+- keep enough of our own explanation/checklist that the page remains useful if the link disappears;
+- never reproduce paid course videos, templates, slides, PDFs or paywalled material without permission;
+- do not use pirated mirrors;
+- do not let affiliate commission determine educational ranking.
+
+Creator College is the first research case. Working notes live at `docs/research/creator-college.md`.
+
+Potential Swindon/Aletheia resource-card fields:
+
+```text
+TITLE
+CREATOR
+WHY IT IS USEFUL
+PUBLIC SOURCE
+CHECKED DATE
+AFFILIATE? yes/no + disclosure
+ALETHEIA NOTE / WHAT TO VERIFY
+```
+
+## Aletheia AI Easy as a portable local front door
+
+**Status:** BUILDING
+
+Aletheia AI Easy should be short onboarding, not a manufactured five-day course.
+
+Core flow:
+
+```text
+What do you want AI to help with?
+        ↓
+optional local setup form
+        ↓
+aletheia-memory.md owned by the user
+        ↓
+provider adapter/instructions
+        ↓
+choose only the Aletheia apps wanted
+        ↓
+normal AI use + portable checkpoint/handover
+```
+
+The setup form should optionally collect:
+
+- what the AI should call the user;
+- display name/nickname/handle;
+- coarse home area and country/region;
+- common AI tasks/searches;
+- preferred response/humour style;
+- regularly wanted Aletheia apps;
+- user boundaries/approval rules.
+
+No field should be mandatory merely to make the form look complete. No optional app is silently enabled. Material portable-memory changes require the user's approval.
+
+Recommended durable storage is a user-created `Aletheia` folder under Documents, or an equivalent folder in a phone/tablet Files app or chosen cloud drive. Downloads is only a convenient landing zone, not the long-term source of truth.
+
+Provider-specific routes may make ChatGPT, Gemini, Claude, Copilot, DeepSeek and other systems easier to start, while the core bootstrap stays vendor-neutral.
+
+The user-facing explanation can be five **short setup videos**, not five days of lessons. The same setup must remain possible entirely from text.
+
+## Aletheia guide/avatar idea
+
+**Status:** EXPERIMENT
+
+Create an original recurring Aletheia presenter using the Aletheia Avatar work rather than depending on a human presenter for every video.
+
+Direction:
+
+- friendly eccentric digital professor/bobblehead;
+- approachable science/engineering flavour;
+- expressive enough for short instructional clips;
+- an original face/identity, not a direct Albert Einstein copy;
+- optional small Aletheia/octopus visual cue;
+- generated with free/local tools where quality is adequate;
+- text-to-speech + captions + transcript;
+- easy to regenerate when provider interfaces change.
+
+Use the five AI Easy setup videos as the first real production test for Aletheia Avatar.
+
+## Aletheia learning - real courses, not instructions stretched into courses
+
+**Status:** CURATE
+
+A course is justified when the learner needs practice, examples, exercises or a useful final result. A two-minute setup step is documentation, not a course.
+
+Strong candidates:
+
+- Aletheia AI Starter - beginner AI without the fog;
+- Search, Sources and Trust Check;
+- Portable Memory and Handover;
+- Local AI - Build Your Own A2Z;
+- AI for Job Search and Employment;
+- Build a Simple Website with AI;
+- Storytelling and Content with AI;
+- AI for a Local Business;
+- Privacy / Digital Footprint / Aletheia 007;
+- Free Automation without a Server Bill;
+- Create Your Own Portable Aletheia App;
+- Home Energy - solar, batteries and tariffs.
+
+Prefer short modules with a concrete output. Link to strong public third-party teaching when it adds value instead of rebuilding the internet one tutorial at a time.
+
+## Home & Energy / Octopus direction
+
+**Status:** DEVELOP AS RESOURCE IDEA
+
+Create a future **Aletheia Home Energy** guide/app covering, where relevant:
+
+- solar PV;
+- home batteries;
+- insulation;
+- heat pumps;
+- EV charging;
+- smart tariffs/time-of-use tariffs;
+- current grants/eligibility;
+- quote comparison;
+- realistic payback assumptions;
+- source/trust checks and dated prices.
+
+The analysis must remain supplier-neutral. Commercial/referral links belong on clearly disclosed human-facing resource pages rather than inside canonical Aletheia logic.
+
+For Swindon.org.uk, a discreet global footer item such as **Home & Energy** could lead to a neutral resource page. That page, not the footer itself, is the better place for a disclosed Octopus link alongside useful energy information and alternatives.
+
+For Royal Orchid Thai Massage, a supplier referral is more coherent as a small **Useful links / Customer offers** item near the footer/contact area than inside massage treatments or the booking journey. Any Octopus copy/link must follow the business's actual current programme approval/terms rather than being improvised.
+
+## Thalia ASCII mark idea - `T-)`
 
 **Status:** TEST / PROPOSED
 
@@ -99,11 +288,11 @@ Why it may fit:
 
 Possible experimental variants:
 
-- `T-)` — default Thalia smile;
-- `T-?` — questioning/playfully puzzled;
-- `T-!` — spotted something absurd;
-- `T-/` — sceptical;
-- `T-P` — cheekier variant.
+- `T-)` - default Thalia smile;
+- `T-?` - questioning/playfully puzzled;
+- `T-!` - spotted something absurd;
+- `T-/` - sceptical;
+- `T-P` - cheekier variant.
 
 Keep the mark optional. Do not use it in serious, dangerous, grieving or otherwise humour-inappropriate contexts merely for branding.
 
@@ -155,31 +344,15 @@ Possible longer-term direction: a broader **Aletheia Relationship Analyst** usin
 
 The old `/election/` material dates from the 2010 SwindonOrgUK political/protest project. Treat it as historical/archive content unless deliberately revived. Do not let old election material become the default landing route or current-site description.
 
-## Aletheia AI Easy as a portable local front door
-
-**Status:** PROPOSED / DEVELOP NEXT
-
-Develop Aletheia AI Easy as a small bootstrap into the wider Aletheia ecosystem. A user should be able to give one portable Markdown bootstrap file to a capable AI, choose or state their location, and discover/run suitable Aletheia applications without depending on Swindon.org.uk being reachable.
-
-The system should point to, rather than duplicate, independently useful modules such as Aletheia Site Audit, Trust Check, Name Check, Aletheia 007 Agent, privacy/incognito tooling and the portable A2Z/local-search application. Swindon.org.uk remains a useful human-facing front door and resource layer, but the applications should continue to work from GitHub/Markdown when practical.
-
-The local layer should be reusable outside Swindon: a user could initialise it for Northampton, Oxford, London, Hammersmith or another location. Provider-specific entry files may make free ChatGPT, Claude, Gemini, Copilot, DeepSeek or other capable systems easier to start, but the core bootstrap should remain provider-neutral and should not assume that any provider is trustworthy or untrustworthy without current evidence.
-
-This creates two complementary routes:
-
-```text
-human -> Swindon.org.uk/resources -> Aletheia app
-human -> Aletheia AI Easy bootstrap -> AI -> Aletheia app / local A2Z
-```
-
-Keep the bootstrap small. It should act as a map and loader, not grow into a copy of every application.
-
 ## Next work
 
 1. reconcile the current live/local files into this repository;
 2. add canonical Markdown specs for the principal pages;
 3. restore/verify shared hamburger navigation and Roundabout components from source specifications;
-4. add current `robots.txt`, `sitemap.xml` and `llms.txt` before production migration;
-5. configure Cloudflare Pages preview and production;
-6. verify HTTPS, Safari/Chrome/Firefox/Edge and crawler access before affiliate applications;
-7. then expand What's On / Meet / noticeboard experiments.
+4. test the proposed cleaner Roundabout visual treatment without losing the Magic Roundabout identity;
+5. add current `robots.txt`, `sitemap.xml` and `llms.txt` before production migration;
+6. configure Cloudflare Pages preview and production;
+7. verify HTTPS, Safari/Chrome/Firefox/Edge and crawler access before affiliate applications;
+8. surface Aletheia AI Easy from the appropriate AI4U/Aletheia page once its setup flow is tested;
+9. design the neutral Home & Energy resource page before adding any commercial energy referral;
+10. then expand What's On / Meet / noticeboard experiments.
