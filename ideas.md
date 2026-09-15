@@ -155,6 +155,25 @@ Possible longer-term direction: a broader **Aletheia Relationship Analyst** usin
 
 The old `/election/` material dates from the 2010 SwindonOrgUK political/protest project. Treat it as historical/archive content unless deliberately revived. Do not let old election material become the default landing route or current-site description.
 
+## Aletheia AI Easy as a portable local front door
+
+**Status:** PROPOSED / DEVELOP NEXT
+
+Develop Aletheia AI Easy as a small bootstrap into the wider Aletheia ecosystem. A user should be able to give one portable Markdown bootstrap file to a capable AI, choose or state their location, and discover/run suitable Aletheia applications without depending on Swindon.org.uk being reachable.
+
+The system should point to, rather than duplicate, independently useful modules such as Aletheia Site Audit, Trust Check, Name Check, Aletheia 007 Agent, privacy/incognito tooling and the portable A2Z/local-search application. Swindon.org.uk remains a useful human-facing front door and resource layer, but the applications should continue to work from GitHub/Markdown when practical.
+
+The local layer should be reusable outside Swindon: a user could initialise it for Northampton, Oxford, London, Hammersmith or another location. Provider-specific entry files may make free ChatGPT, Claude, Gemini, Copilot, DeepSeek or other capable systems easier to start, but the core bootstrap should remain provider-neutral and should not assume that any provider is trustworthy or untrustworthy without current evidence.
+
+This creates two complementary routes:
+
+```text
+human -> Swindon.org.uk/resources -> Aletheia app
+human -> Aletheia AI Easy bootstrap -> AI -> Aletheia app / local A2Z
+```
+
+Keep the bootstrap small. It should act as a map and loader, not grow into a copy of every application.
+
 ## Next work
 
 1. reconcile the current live/local files into this repository;
