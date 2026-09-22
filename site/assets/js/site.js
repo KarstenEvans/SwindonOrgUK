@@ -103,7 +103,7 @@
       const fresh=holder.firstElementChild;
       if(!fresh) return false;
 
-      const existing=document.querySelector("footer.site-footer");
+      const existing=document.querySelector("footer.site-footer") || document.querySelector("footer:last-of-type");
       if(existing){
         existing.replaceWith(fresh);
       }else{
