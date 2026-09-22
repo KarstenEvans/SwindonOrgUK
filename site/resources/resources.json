@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "generated_from": "SwindonOrgUK controlled resource manifest",
+  "canonical": "https://swindon.org.uk/resources/",
+  "items": [
+    {
+      "title": "Aletheia Love Translator resources",
+      "file": "aletheia-love-translator-rsc.htm",
+      "url": "/resources/aletheia-love-translator-rsc.htm",
+      "type": "resource",
+      "description": "HELP, books, evidence and supporting material for Aletheia Love Translator."
+    },
+    {
+      "title": "Affiliate Disclosure",
+      "file": "affiliate-disclosure.htm",
+      "url": "/resources/affiliate-disclosure.htm",
+      "type": "site-information",
+      "description": "How Swindon.org.uk identifies and uses affiliate links, including Awin."
+    }
+  ]
+}
