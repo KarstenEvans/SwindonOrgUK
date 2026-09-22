@@ -84,3 +84,28 @@ books / evidence / repair resources / protocol links / source
 - [ ] app source link is present but secondary;
 - [ ] affiliate/commercial links remain on resource pages rather than contaminating canonical protocols;
 - [ ] shared navigation and footer rules are preserved.
+
+
+## Controlled folder index
+
+`/resources/` is the human landing page for the Resources folder.
+
+A small manifest at:
+
+`/resources/resources.json`
+
+lists the public resource pages that should appear in the directory. The index page loads this manifest in the browser and renders a compact **All resource pages** list. Keep a small HTML fallback list so the directory remains useful if JavaScript is unavailable.
+
+This is a controlled manifest, not raw server directory listing.
+
+## Affiliate Disclosure
+
+Canonical disclosure:
+
+`https://swindon.org.uk/resources/affiliate-disclosure.htm`
+
+Compatibility address:
+
+`https://swindon.org.uk/resources/affiliate-disclosure.html`
+
+The shared site footer opens the disclosure in the standard **900 × 760** popup.
