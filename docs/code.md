@@ -129,3 +129,24 @@ Before rebuilding a page:
 ## Migration note
 
 The established local project contains a fuller `code.md` with the existing HTML/CSS/JS snippets. Bring that fuller file into this repository and reconcile it with this structure before treating Cloudflare output as production-complete. Do not discard the local version merely because this migration seed exists.
+
+
+## Canonical shared footer fragment
+
+Runtime fragment: `/footer.html`.
+
+The footer is deliberately unobtrusive and normally stays to one line on desktop:
+
+`Home · Resources · About · Contact · Privacy · Affiliate Disclosure`
+
+`/assets/js/site.js` loads the fragment and:
+- replaces an existing `footer.site-footer` when one is present;
+- fills `[data-site-footer]` when a page provides a footer slot;
+- appends the footer when neither exists;
+- leaves the page's existing footer untouched if the shared fragment cannot be fetched.
+
+This allows old static pages to keep a safe fallback while future footer changes are made once in `footer.html`.
+
+The **Affiliate Disclosure** link opens `/resources/affiliate-disclosure.htm` in the standard 900 × 760 resizable, scrollable popup.
+
+Pages containing actual affiliate advertising still require a clear page-level advertising disclosure near the relevant commercial links.
