@@ -150,3 +150,27 @@ This allows old static pages to keep a safe fallback while future footer changes
 The **Affiliate Disclosure** link opens `/resources/affiliate-disclosure.htm` in the standard 900 × 760 resizable, scrollable popup.
 
 Pages containing actual affiliate advertising still require a clear page-level advertising disclosure near the relevant commercial links.
+
+
+## Awin Publisher MasterTag / Convert-a-Link
+
+**Publisher ID:** `3182162`
+
+Pages that contain affiliate advertising, merchant links intended for Awin Convert-a-Link, or resource-page commercial links must load the Awin Publisher MasterTag **once** near the end of the document, immediately before `</body>`:
+
+```html
+<script src="https://www.dwin2.com/pub.3182162.min.js"></script>
+</body>
+</html>
+```
+
+Rules:
+
+- Do not place the MasterTag inside the visible footer fragment.
+- Do not add it more than once to the same document.
+- The tag must be present on the actual page containing the merchant link. Loading it on a separate index page does not carry it across navigation.
+- Keep source/reference links non-commercial. Where a page deliberately contains a merchant-domain link that must not be converted, use the Awin ignore mechanism already adopted by the project (`data-awinignore`) where supported.
+- A page containing actual affiliate advertising still needs a clear disclosure near the commercial links; the MasterTag does not replace disclosure.
+- Aletheia Knowledge Markdown remains free of affiliate tracking code. Affiliate conversion belongs only to the HTML/resource layer.
+
+This rule applies to Swindon.org.uk resource pages, Aletheia Knowledge resource pages, and any other page intentionally carrying affiliate-capable merchant links.
