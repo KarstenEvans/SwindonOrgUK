@@ -95,10 +95,12 @@ AI remains optional and secondary. Useful local results appear first.
 Shared popup behaviour belongs in `/assets/js/site.js`.
 
 - main site navigation remains in the current window;
-- secondary/external services may use a separate popup/new window;
+- **resource-page buttons and secondary/external service buttons open in a 900 × 760 resizable, scrollable popup/new window**;
+- the popup should be centred where practical and should reuse the standard resource window rather than replacing the main page;
+- download buttons keep normal download behaviour and are not forced into the popup;
 - AI providers should open synchronously from the user's click before asynchronous work;
 - the active Swindon.org.uk page remains underneath;
-- do not duplicate slightly different popup code across pages.
+- do not duplicate slightly different popup sizes or behaviours across pages.
 
 ## Swindon Stream
 
