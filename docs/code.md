@@ -103,6 +103,14 @@ Shared popup behaviour belongs in `/assets/js/site.js`.
 - the active Swindon.org.uk page remains underneath;
 - do not duplicate slightly different popup sizes or behaviours across pages.
 
+### Browser fallback
+
+- On mobile/tablet or when popup creation is blocked, fall back to the browser's normal new-tab/new-window behaviour.
+- One click must open only one target; do not attach duplicate popup handlers.
+- Primary site navigation remains in the current page.
+- Feature-detect optional APIs/libraries. Never disable a capability merely because the device is Apple/Android/Windows.
+- A failed optional feature must not remove the local results/navigation underneath it.
+
 ## Swindon Stream
 
 Swindon Stream is supporting navigation/content and belongs near the bottom of task pages, after the primary useful action/results.
