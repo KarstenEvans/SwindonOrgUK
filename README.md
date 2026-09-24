@@ -10,6 +10,13 @@ Swindon.org.uk is an independent local guide and launchpad for useful Swindon in
 
 The site should stay small and understandable. Specialist tools and experiments may live elsewhere, such as GitHub Pages or other free/static services, and be linked from Swindon.org.uk rather than absorbed into the main site.
 
+## Start here for AI-assisted changes
+
+- `AGENTS.md` — short repository-agent router.
+- `docs/swindonorguk-gui.md` — user-interface and behaviour contract.
+- `docs/code.md` — shared code/component rules.
+- target `pages/<page>.md` — page-specific build contract.
+
 ## Canonical source rule
 
 For the principal pages, Markdown is the durable build specification and HTML is the published rendition.
