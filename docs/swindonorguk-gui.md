@@ -272,3 +272,38 @@ Primary feedback destination may be `a2z@swindon.org.uk` once mail routing is de
 ### Machine-facing Markdown rule
 
 A task page must not open its raw Aletheia `.md` as the user's result. Markdown is machine-facing instruction/payload. Keep the Swindon.org.uk page open and open the selected AI separately. Raw Markdown remains an optional manual/developer action.
+
+
+## 21. Browser capability and device rule
+
+Public task pages should be designed mobile-first and tested proportionately on:
+
+- Windows Chrome/Edge;
+- Android Chrome;
+- macOS Safari;
+- iPhone/iPad Safari;
+- Firefox where practical.
+
+Use **feature detection**, not operating-system assumptions. A failed Three.js/WebGL/file-picker/clipboard/fullscreen feature on one device is evidence about that session/configuration until the underlying capability is tested.
+
+Optional enhancements must fail usefully. If an AI handoff popup, graphics library, CDN or browser API is unavailable, keep the core Swindon page/results/navigation working and show a concise fallback.
+
+### Window decision
+
+The existing separate-window pattern remains useful for AI providers, maps, source material and resources when leaving the page would destroy search/task state.
+
+However:
+
+- do not force a desktop-sized popup on mobile;
+- one click opens one destination;
+- main site navigation remains in the current window;
+- downloads/anchors/`mailto:`/`tel:` keep normal browser behaviour;
+- use an ordinary new tab when the browser blocks/disallows the child-window pattern.
+
+## 22. Long AI work must leave checkpoints
+
+Do not make a site build depend on one uninterrupted agent/Work run.
+
+For substantial AI-assisted work, save coherent progress into the repository after inventory/research/specification/implementation stages. A later run should read current files and continue from the latest verified state rather than starting the entire site again.
+
+This is especially important for usage-capped agent products and is a design rule even when a particular provider currently has generous limits.
