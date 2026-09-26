@@ -79,6 +79,21 @@ The Roundabout is available but not mandatory on every page. Where a page specif
 
 Do not leave documentation placeholders unresolved in a finished public page.
 
+## FRONT-DOOR-PREFLIGHT
+
+Before SEO/AEO/content work on an important public route:
+
+1. verify HTTPS reaches intended content;
+2. inspect HTTP and www/non-www redirects where relevant;
+3. inspect `robots.txt`, `sitemap.xml` and optional `llms.txt`;
+4. confirm canonical URL, title and meta description;
+5. confirm the useful answer/source links exist in crawlable HTML;
+6. test important internal links;
+7. distinguish target-site failures from crawler/provider retrieval refusals;
+8. record PASS / PARTIAL / FAIL / INCONCLUSIVE.
+
+Full diagnostic logic lives in Aletheia Site Audit. Do not duplicate its entire workflow here.
+
 ## Answer / discovery bridge component
 
 For a factual/resource page that also acts as a public discovery front door, keep the structure simple and crawlable:
