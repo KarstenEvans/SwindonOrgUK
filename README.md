@@ -45,6 +45,9 @@ If generated HTML conflicts with the canonical Markdown and shared specification
 │   └── code.md
 ├── pages/
 │   └── meet.md
+├── aletheia/
+│   ├── README.md
+│   └── index-page.md
 ├── data/
 │   └── notices.md
 ├── assets/
@@ -59,7 +62,8 @@ More page specifications will be added as the existing site is reconciled.
 - **ChatGPT temporary site**: design/prototyping workbench.
 - **Cloudflare Pages preview**: test deployment.
 - **Swindon.org.uk**: production site.
-- **Aletheia apps**: normally maintained in their own GitHub repositories and linked where useful.
+- **Aletheia apps/knowledge/protocol**: remain maintained in their specialist repositories as their canonical technical/content sources.
+- **Aletheia public website**: may live as a separate `/aletheia/` source tree in this same repository and deploy independently to `https://aletheia.swindon.org.uk/`.
 
 Production Swindon.org.uk should be indexable. Preview/test deployments should not be treated as the public canonical site.
 
@@ -82,3 +86,22 @@ Production Swindon.org.uk should be indexable. Preview/test deployments should n
 ## Status
 
 Rebuild/migration in progress. Existing live Fasthosts/FileZilla content will be reconciled into this repository before Cloudflare becomes the production host.
+
+
+## Two-site monorepo direction
+
+The preferred public architecture is one Git repository with two independently deployable static site surfaces:
+
+```text
+KarstenEvans/SwindonOrgUK
+├── site/          → https://swindon.org.uk/
+└── aletheia/      → https://aletheia.swindon.org.uk/
+```
+
+Swindon.org.uk remains the local Swindon guide. Aletheia is a worldwide AI/knowledge/tools site with its own visual identity, navigation, metadata and home page.
+
+Cloudflare Pages supports multiple projects from one monorepo with different root/build directories. Use separate Pages projects/build watch paths so changing one site need not rebuild the other.
+
+Do not publish identical Aletheia pages at both `swindon.org.uk/aletheia/` and `aletheia.swindon.org.uk/`. If the path form is exposed publicly, redirect it permanently to the chosen canonical subdomain while preserving the path where practical.
+
+The existing `aletheia-app`, `aletheia-knowledge` and `aletheia-protocol` repositories remain the canonical specialist sources. The public Aletheia website is an index/discovery layer over them rather than a reason to duplicate all source content.
