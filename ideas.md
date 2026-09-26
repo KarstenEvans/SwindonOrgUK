@@ -405,6 +405,32 @@ Use Search Console/analytics to record:
 
 Expand only formats that help visitors and earn genuine discovery.
 
+### Publisher content-loop research seed
+
+A useful pattern from search-visible content publishers is not the individual article alone but the loop around it:
+
+```text
+searchable answer
+  → topic hub
+     → related answer
+        → deeper specialist content/tool
+           → related topic
+```
+
+Pilot an ethical Swindon.org.uk version:
+
+- answer the visitor's question immediately;
+- expose three concise takeaways where useful;
+- use headings that make sense out of context;
+- link important concepts to curated topic hubs;
+- use **Explore with Aletheia** for the deeper tool/knowledge layer;
+- make Aletheia link back to the matching Swindon.org.uk public/resource page;
+- add a **Go Deeper** section whose source annotations say why each link is useful;
+- generate primary/secondary/spoken/AI-answer query variants before publication;
+- measure which routes actually earn discovery.
+
+Do not create topic hubs until several substantive pages exist. Do not mass-produce keyword/tag pages.
+
 ### Current caution
 
 FAQ-style questions are still useful content, but do not depend on FAQ rich-result markup. Keep `llms.txt` as an optional machine-readable aid rather than treating it as a Google ranking switch.
