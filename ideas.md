@@ -450,3 +450,27 @@ Preferred transition:
 5. only later switch the public origin to GitHub Pages/Cloudflare Pages if deliberately tested and approved.
 
 This gives recovery/history immediately without forcing a hosting move.
+
+
+## Aletheia public subdomain / monorepo direction
+
+**Status:** ACCEPTED DIRECTION / DEPLOYMENT NOT YET DONE
+
+Use the same `KarstenEvans/SwindonOrgUK` repository as a monorepo for two public site surfaces:
+
+```text
+/site/       → swindon.org.uk
+/aletheia/   → aletheia.swindon.org.uk
+```
+
+Why this direction:
+
+- Swindon.org.uk stays unmistakably local.
+- Aletheia gets a worldwide identity and can have its own site name/navigation.
+- one Git repository keeps cross-linking, shared components and backups simple;
+- Cloudflare Pages can deploy multiple projects from different folders of one repository;
+- the specialist Aletheia app/knowledge/protocol repositories remain canonical and are not copied wholesale into the website repository.
+
+Do not index both `swindon.org.uk/aletheia/` and `aletheia.swindon.org.uk/` with the same content. If the former exists, use it as a permanent redirect/alias to the subdomain.
+
+Possible future migration: if Aletheia later gains its own independent apex domain, the subdomain can redirect to that domain without reorganising the source tree.
