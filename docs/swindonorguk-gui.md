@@ -342,3 +342,81 @@ Do not assume AI systems share a live common memory. Design public pages so inde
 Use **Aletheia Site Audit → Native Ad / Advertorial Pattern** when studying a competitor/high-visibility page. Reuse ethical information architecture only. Do not copy fake scarcity, unverifiable personal stories, disguised advertising, misleading locality or fabricated testimonials.
 
 SEO/AEO experiments must be measurable. Use Search Console/analytics evidence before repeating a format across the site. A page should still be worthwhile if it never earns a rich result or AI citation.
+
+
+## 25. Swindon.org.uk ↔ Aletheia cross-pollination
+
+Swindon.org.uk is the public discovery/front-door layer when a subject benefits from a concise searchable answer. Aletheia is the deeper tool/knowledge layer.
+
+Preferred loop:
+
+```text
+Swindon.org.uk answer/resource page
+        ↓  Explore with Aletheia
+Aletheia app / Aletheia Knowledge
+        ↓  More / resources / public context
+matching Swindon.org.uk page
+```
+
+Where both surfaces genuinely exist:
+
+- the Swindon.org.uk page links to the deeper Aletheia destination;
+- the Aletheia app/resource/knowledge metadata links back to the matching Swindon.org.uk page;
+- both may link to a few genuinely related neighboring topics;
+- source/evidence links remain visually and semantically separate from commercial/resource links;
+- do not duplicate the same long article on both sites.
+
+Do not create a Swindon.org.uk wrapper for every Aletheia app. The page must answer a real visitor need on its own.
+
+### Cross-pollination labels
+
+Prefer human labels over implementation language:
+
+- **Explore with Aletheia**
+- **Open the Aletheia guide**
+- **Check with Aletheia**
+- subject-specific wording such as **Explore garden wildlife with Aletheia**
+
+Do not make GitHub source links the primary visitor route.
+
+## 26. Topic hubs, Go Deeper and discovery metadata
+
+A repeated subject may become a curated topic hub when several substantive pages genuinely belong together.
+
+Examples:
+
+- Garden Wildlife → Hedgehogs → Bee Hotels → Pollinators → Native Plants
+- Windows → Debloat → Storage → Startup → Privacy
+- Swindon History → Railway Works → Mechanics' Institute → Richard Jefferies
+
+A public topic hub should contain:
+
+1. a short original explanation;
+2. the strongest related Swindon.org.uk pages;
+3. relevant deeper Aletheia apps/cards;
+4. a few neighboring concepts;
+5. no empty keyword-only/tag shell.
+
+As a working threshold, normally wait until at least three worthwhile pages/cards belong together.
+
+For important public answer pages, the SEO/AEO editorial check should consider:
+
+- primary query/question;
+- secondary query variants;
+- likely spoken question;
+- likely AI-answer/retrieval question;
+- SEO title;
+- meta description;
+- clean slug;
+- concise direct answer;
+- three key points where useful;
+- descriptive headings;
+- contextual internal links;
+- related questions;
+- annotated **Go Deeper** sources explaining why each source is useful;
+- matching Aletheia deep link;
+- duplicate/canonical risk;
+- checked/published date and later measurement.
+
+These fields are planning aids. They do not guarantee ranking, rich results or AI citation.
+
