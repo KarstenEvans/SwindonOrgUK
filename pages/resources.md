@@ -131,3 +131,23 @@ Compatibility address:
 `https://swindon.org.uk/resources/affiliate-disclosure.html`
 
 The shared site footer opens the disclosure in the standard **900 × 760** popup.
+
+
+## Download everything / mirror toolkit
+
+The owner-facing **Download everything** / mirror-toolkit action should use Swindon.org.uk as its public download home once the current ZIP has actually been uploaded.
+
+Planned canonical public URL:
+
+`https://swindon.org.uk/resources/downloads/Swindon-GitHub-Mirror-Toolkit.zip`
+
+Rules:
+
+- do not use a GitHub repository archive as the ordinary public download link when the curated toolkit is intended;
+- do not call the Swindon.org.uk URL live until the ZIP can be fetched successfully;
+- keep the filename stable so existing instructions/bookmarks can survive refreshed toolkit versions;
+- the toolkit is an owner/migration pack, not a claim that every Aletheia repository, private file or historical artifact is bundled;
+- the ZIP should preserve relative paths for files intended to be copied into the local Swindon.org.uk / `htdocs` tree;
+- include a short install/manifest text file stating the generated date, included source commits where practical, and which files belong to GitHub master versus live-site upload.
+
+Until that file is uploaded, keep any existing local/chat download link or mark the public link **PENDING UPLOAD** rather than publishing a broken button.
