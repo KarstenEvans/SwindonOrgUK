@@ -79,6 +79,45 @@ The Roundabout is available but not mandatory on every page. Where a page specif
 
 Do not leave documentation placeholders unresolved in a finished public page.
 
+## Answer / discovery bridge component
+
+For a factual/resource page that also acts as a public discovery front door, keep the structure simple and crawlable:
+
+```html
+<section class="answer-summary">
+  <h1>Specific question or topic</h1>
+  <p class="direct-answer">Concise answer in ordinary HTML.</p>
+  <ul class="key-points">
+    <li>Key point one</li>
+    <li>Key point two</li>
+    <li>Key point three</li>
+  </ul>
+</section>
+
+<nav class="related-topics" aria-label="Related topics">
+  <!-- a small number of real internal Swindon.org.uk topic links -->
+</nav>
+
+<p class="aletheia-bridge">
+  <a href="ALETHEIA_PUBLIC_APP_URL">Explore with Aletheia</a>
+</p>
+
+<section class="go-deeper">
+  <h2>Go deeper</h2>
+  <!-- authoritative source links with one-sentence reasons -->
+</section>
+```
+
+Rules:
+
+- Do not require JavaScript to reveal the direct answer or source links.
+- Use the Aletheia bridge only when a real deeper app/knowledge destination exists.
+- The deeper Aletheia destination should reciprocate with the matching Swindon.org.uk resource/front-door URL when practical.
+- Keep factual/source links out of affiliate conversion.
+- Related-topic lists are curated navigation, not a keyword cloud.
+- If two pages become substantially duplicate, choose one primary/canonical public version rather than publishing cloned copy.
+- Generate/edit SEO titles, descriptions and query variants as planning aids, then measure actual performance after publication.
+
 ## Search controls
 
 Use one primary task/search box per page. For Aletheia-enabled search pages the compact pattern is:
