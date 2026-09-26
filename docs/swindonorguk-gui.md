@@ -420,3 +420,65 @@ For important public answer pages, the SEO/AEO editorial check should consider:
 
 These fields are planning aids. They do not guarantee ranking, rich results or AI citation.
 
+
+
+## 27. Front-door and competitor-improvement preflight
+
+Before spending time on SEO/AEO/content polish for an important public page, check the site can actually be reached and understood.
+
+### Front-door check
+
+Where practical verify:
+
+- HTTPS reaches the intended site;
+- HTTP and www/non-www do not create accidental redirect traps;
+- `robots.txt` is present and not blocking the intended public content;
+- `sitemap.xml` lists only real canonical public URLs;
+- `llms.txt`, if present, is treated as a supplemental discovery aid rather than a ranking switch;
+- canonical URL and page title/description are sensible;
+- the important answer is crawlable HTML rather than JavaScript-only text;
+- internal links resolve;
+- the mobile page remains usable;
+- a crawler/AI retrieval failure is distinguished from a real site HTTP/DNS/TLS failure.
+
+Do not optimise a locked front door.
+
+### Competitor / visible-page improvement check
+
+When a competitor advertorial, landing page or unusually visible publisher page inspires a Swindon.org.uk change, reuse the Aletheia Site Audit method rather than copying the page.
+
+Inspect, where observable:
+
+- traffic/acquisition clues such as native/display/search advertising and tracking parameters;
+- title/H1/H2 and natural-language question coverage;
+- direct-answer placement and semantic breadth;
+- internal links, breadcrumbs, related pages and topic/category architecture;
+- crawlable text versus JS-only content;
+- supported structured data;
+- useful image names, captions and alt text;
+- the journey from story/search/ad → answer page → Aletheia/resource/action;
+- provenance, source and advertising disclosure;
+- urgency/scarcity/testimonial/locality devices that should not be copied without evidence.
+
+Classify each idea as:
+
+- **REUSE ETHICALLY**
+- **TEST**
+- **DO NOT COPY**
+- **UNKNOWN**
+
+For a useful technique marked TEST, prefer one small measurable experiment over a site-wide rewrite.
+
+### Small-experiment rule
+
+For each discovery experiment record:
+
+1. page/feature changed;
+2. reason/hypothesis;
+3. exact small change;
+4. baseline if known;
+5. Search Console/analytics/referral measure;
+6. checked date;
+7. keep / revise / remove decision.
+
+A visible competitor technique is not proof that the technique caused its visibility.
