@@ -42,6 +42,25 @@ Supporting links:
 
 The GitHub copy of `aletheia-love-translator-rsc.htm` is a mirror/recovery copy. The canonical public resource URL remains the Swindon.org.uk URL.
 
+## Aletheia discovery bridge
+
+The Resources page is also a practical bridge between Swindon.org.uk and the deeper Aletheia estate.
+
+Include a compact **Explore Aletheia** route to the public Aletheia Knowledge library:
+
+- https://karstenevans.github.io/aletheia-knowledge/
+
+For each featured Swindon.org.uk resource/app entry, check whether there is:
+
+- a deeper runnable Aletheia app;
+- a matching Aletheia Knowledge collection/card;
+- a matching Swindon.org.uk answer/resource page;
+- one or two genuinely related Swindon.org.uk topics.
+
+Use the deeper Aletheia link as the specialist destination and keep the Swindon.org.uk page as the concise public/resource front door. Do not copy the same long explanatory text onto both surfaces.
+
+When a topic hub exists, link through meaningful labels rather than exposing raw tag names or repository paths.
+
 ## Protocol/source section
 
 Keep a compact **How it works / Source** section near the bottom with:
@@ -83,7 +102,10 @@ books / evidence / repair resources / protocol links / source
 - [ ] Aletheia and Thalia protocol links are present;
 - [ ] app source link is present but secondary;
 - [ ] affiliate/commercial links remain on resource pages rather than contaminating canonical protocols;
-- [ ] shared navigation and footer rules are preserved.
+- [ ] shared navigation and footer rules are preserved;
+- [ ] a visible Explore Aletheia route reaches the public Aletheia Knowledge library;
+- [ ] featured entries cross-link to deeper Aletheia destinations where they genuinely exist;
+- [ ] duplicate long-form copy is avoided between Swindon.org.uk and Aletheia.
 
 
 ## Controlled folder index
