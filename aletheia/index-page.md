@@ -104,6 +104,24 @@ Examples:
 
 A hub needs a short original explanation and curated routes. It must not be an empty tag archive.
 
+## Search identity and front door
+
+The Aletheia subdomain is a separate public site identity even though its source lives in the same repository.
+
+The rendered home page should include:
+
+- a self-referencing canonical URL: `https://aletheia.swindon.org.uk/`;
+- a specific title and meta description for Aletheia;
+- crawlable H1 and introductory text;
+- `WebSite` structured data on the subdomain home with `name: "Aletheia"` and `url: "https://aletheia.swindon.org.uk/"`;
+- appropriate Open Graph/social metadata;
+- useful image alt text;
+- a subdomain-specific `robots.txt`;
+- a real subdomain-specific `sitemap.xml` built only from deployed URLs;
+- optional `llms.txt` as a supplemental machine-facing index, never as a replacement for HTML/internal links/sitemap.
+
+Run the Front Door preflight before calling the public launch complete.
+
 ## Branding
 
 The page must not display the Swindon Roundabout, "SwindonOrgUK" masthead or local Swindon navigation as its main identity.
