@@ -356,3 +356,71 @@ The old `/election/` material dates from the 2010 SwindonOrgUK political/protest
 8. surface Aletheia AI Easy from the appropriate AI4U/Aletheia page once its setup flow is tested;
 9. design the neutral Home & Energy resource page before adding any commercial energy referral;
 10. then expand What's On / Meet / noticeboard experiments.
+
+
+## Question-led discovery / ethical advertorial architecture
+
+**Status:** PILOT AFTER LIVE/GITHUB RECONCILIATION
+
+Use the useful architecture found in strong advertorial and search-visible pages without adopting dubious sales tactics.
+
+Candidate Swindon.org.uk pattern:
+
+```text
+REAL LOCAL QUESTION
+DIRECT ANSWER
+LOCAL DETAILS / HOW IT WORKS
+CAVEATS / DATE CHECK
+RELATED QUESTIONS
+SOURCES
+RELATED SWINDON.ORG.UK / ALETHEIA LINK
+OPTIONAL RESOURCE / DOWNLOAD
+```
+
+Potential first subjects:
+- practical local questions people repeatedly search for;
+- Swindon history/landmark questions;
+- garden/wildlife questions from Aletheia Waste to Garden;
+- Windows/AI help pages where Swindon.org.uk is a useful front door;
+- local service explainers that complement rather than replace the A2Z.
+
+Use **Aletheia Site Audit → Native Ad / Advertorial Pattern** to study competitors and classify:
+- REUSE ETHICALLY
+- TEST
+- DO NOT COPY
+- UNKNOWN
+
+Borrow clarity, semantic coverage, internal linking, useful images/alt text, downloads and obvious next actions. Reject fake scarcity, fabricated human stories, fake testimonials, disguised sponsorship, misleading locality and mass-produced thin content.
+
+The aim is not to trick Google or AI systems. It is to make Swindon.org.uk easier to discover, parse, trust and cite.
+
+### Measure before scaling
+
+Use Search Console/analytics to record:
+- impressions by query;
+- clicks;
+- pages first discovered;
+- branded vs non-branded discovery;
+- useful referrals/citations where observable.
+
+Expand only formats that help visitors and earn genuine discovery.
+
+### Current caution
+
+FAQ-style questions are still useful content, but do not depend on FAQ rich-result markup. Keep `llms.txt` as an optional machine-readable aid rather than treating it as a Google ranking switch.
+
+
+## GitHub mirror before hosting migration
+
+**Status:** HIGH PRIORITY
+
+The live Swindon.org.uk site may still be served from Fasthosts while the GitHub repository is being reconciled. Do not assume a file in GitHub is live merely because it exists there.
+
+Preferred transition:
+1. copy the current local/Fasthosts website tree into the SwindonOrgUK repository;
+2. reconcile newer GitHub-only work without overwriting live/local changes;
+3. use GitHub as the versioned master/mirror;
+4. continue publishing that same reviewed source tree to Fasthosts;
+5. only later switch the public origin to GitHub Pages/Cloudflare Pages if deliberately tested and approved.
+
+This gives recovery/history immediately without forcing a hosting move.
