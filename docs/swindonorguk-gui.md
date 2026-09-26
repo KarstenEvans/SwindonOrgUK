@@ -307,3 +307,38 @@ Do not make a site build depend on one uninterrupted agent/Work run.
 For substantial AI-assisted work, save coherent progress into the repository after inventory/research/specification/implementation stages. A later run should read current files and continue from the latest verified state rather than starting the entire site again.
 
 This is especially important for usage-capped agent products and is a design rule even when a particular provider currently has generous limits.
+
+
+## 23. Hosting and GitHub mirror status
+
+Do not infer hosting state from repository presence.
+
+Swindon.org.uk may be live on **Fasthosts** while `KarstenEvans/SwindonOrgUK` is the developing mirror/source repository. Until migration is explicitly verified:
+
+- a GitHub file is not proof that the same revision is live on Swindon.org.uk;
+- a live Fasthosts/local-PC file may be newer than GitHub;
+- reconcile the local/live tree into GitHub before treating GitHub as complete;
+- keep publishing actions separate from source edits;
+- verify the production URL after deployment before claiming a change is live.
+
+Once one reconciled local Git clone becomes the working master, the same reviewed tree can feed both GitHub and Fasthosts until a deliberate hosting switch.
+
+## 24. Answer-ready discovery pages
+
+For pages whose job includes answering a factual/local question, make the answer readable in ordinary HTML near the top of the page.
+
+Preferred structure:
+1. specific question/topic heading;
+2. concise direct answer;
+3. local/current detail;
+4. caveats or checked date where needed;
+5. related questions only where useful;
+6. real source links;
+7. relevant internal/Aletheia link;
+8. optional resource/download after the answer.
+
+Do not assume AI systems share a live common memory. Design public pages so independent search engines, crawlers and retrieval systems can discover, parse, verify and cite them.
+
+Use **Aletheia Site Audit → Native Ad / Advertorial Pattern** when studying a competitor/high-visibility page. Reuse ethical information architecture only. Do not copy fake scarcity, unverifiable personal stories, disguised advertising, misleading locality or fabricated testimonials.
+
+SEO/AEO experiments must be measurable. Use Search Console/analytics evidence before repeating a format across the site. A page should still be worthwhile if it never earns a rich result or AI citation.
