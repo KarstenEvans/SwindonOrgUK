@@ -10,6 +10,8 @@ This is a short repository entry point for coding/agent tools. It does not repla
 4. the target `pages/<page>.md` specification
 5. the current rendered `site/` page, shared JavaScript/footer and exact data/assets it uses
 6. `ideas.md` only when the request concerns future work
+7. `tasks.md` for durable future tasks, including the deferred SEO/AEO/GEO work package
+8. `SwindonOrgUK-improve.md` when invoked to audit, plan or improve Swindon.org.uk discovery and answer-ready pages
 
 Aletheia Protocol source: `https://github.com/KarstenEvans/aletheia-protocol`
 
