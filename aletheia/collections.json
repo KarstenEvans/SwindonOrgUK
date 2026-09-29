@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "status": "CURATED_DRAFT_NOT_LIVE_VERIFIED",
+  "reviewed": "2026-09-29",
+  "editorial_rules": "Human-approved original copy only. Verify the actual public destination before release. Source/evidence links are independent of approved affiliate resources. Items may belong to both collections where appropriate.",
+  "items": [
+    {
+      "id": "writers",
+      "collection": "emporium",
+      "group": "Books & writers",
+      "title": "Aletheia Writers",
+      "description": "Explore author research and bibliographies, starting with Terry Pratchett.",
+      "url": "https://karstenevans.github.io/aletheia-app/Writers/",
+      "source": "KarstenEvans/aletheia-app:Writers/index.html",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "pratchett",
+      "collection": "emporium",
+      "group": "Books & writers",
+      "title": "Terry Pratchett book collection",
+      "description": "A curated reader and books catalogue, with individual title routes and clearly separated retail links.",
+      "url": "https://karstenevans.github.io/aletheia-app/Writers/aletheia-terry-pratchett.htm",
+      "source": "KarstenEvans/aletheia-app:Writers/aletheia-terry-pratchett.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "writing-vibe",
+      "collection": "emporium",
+      "group": "Create & learn",
+      "title": "Writing Vibe",
+      "description": "Research writing techniques from attributable source material and export a portable, reviewable brief.",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-writing-vibe/aletheia-writing-vibe.htm",
+      "source": "KarstenEvans/aletheia-app:aletheia-writing-vibe/aletheia-writing-vibe.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "waste-garden",
+      "collection": "emporium",
+      "group": "Home & garden",
+      "title": "Waste to Garden",
+      "description": "Ideas for making something useful from what you already have.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/app/aletheia-waste-to-garden.htm",
+      "source": "KarstenEvans/aletheia-knowledge:app/aletheia-waste-to-garden.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "chatgpt-guide",
+      "collection": "emporium",
+      "group": "Create & learn",
+      "title": "ChatGPT Free guide",
+      "description": "A practical guide to getting started and understanding limitations.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/resources/aletheia-chatgpt-free-guide.htm",
+      "source": "KarstenEvans/aletheia-knowledge:resources/aletheia-chatgpt-free-guide.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "windows",
+      "collection": "emporium",
+      "group": "Digital & privacy",
+      "title": "Secret Windows",
+      "description": "Practical Windows tips and a related source-aware resource page.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/app/aletheia-secret-windows.htm",
+      "source": "KarstenEvans/aletheia-knowledge:app/aletheia-secret-windows.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "chess",
+      "collection": "emporium",
+      "group": "Create & learn",
+      "title": "Aletheia Chess",
+      "description": "An interactive chess app for playing and learning.",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-chess/aletheia-chess.htm",
+      "source": "KarstenEvans/aletheia-app:aletheia-chess/aletheia-chess.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "love-translator",
+      "collection": "emporium",
+      "group": "Home & life",
+      "title": "Love Translator",
+      "description": "A communication-focused app with separate reading and book resources.",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-love-translator/aletheia-love-translator.htm",
+      "source": "KarstenEvans/aletheia-app:aletheia-love-translator/aletheia-love-translator.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "ai-story",
+      "collection": "cabinet",
+      "group": "Animated histories",
+      "title": "The Story of Artificial Intelligence",
+      "description": "A narrated illustrated journey through AI history, with interactive constellation links.",
+      "url": "https://karstenevans.github.io/aletheia-app/stories/Aletheia-The-Story-of-Artificial-Intelligence.htm",
+      "source": "KarstenEvans/aletheia-app:stories/Aletheia-The-Story-of-Artificial-Intelligence.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "weird-history",
+      "collection": "cabinet",
+      "group": "Curious history",
+      "title": "Weird History",
+      "description": "Explore unusual historical stories through a visual Aletheia knowledge reader.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/app/aletheia-weird-history.htm",
+      "source": "KarstenEvans/aletheia-knowledge:app/aletheia-weird-history.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "storyteller",
+      "collection": "cabinet",
+      "group": "Stories",
+      "title": "Aletheia Storyteller",
+      "description": "Illustrated adventures with ToomorrowMan, AI-PI and other unusual company.",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-storyteller.htm",
+      "source": "KarstenEvans/aletheia-app:aletheia-storyteller.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "animation",
+      "collection": "cabinet",
+      "group": "Experiments",
+      "title": "Aletheia Three.js Animation",
+      "description": "An experimental animated scene and visual storytelling playground.",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-threejs-animation/aletheia-threejs-animation.htm",
+      "source": "KarstenEvans/aletheia-app:aletheia-threejs-animation/aletheia-threejs-animation.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "swindon-town",
+      "collection": "cabinet",
+      "group": "Curious history",
+      "title": "Swindon Town",
+      "description": "A locally rooted collection of notable facts and unusual discoveries.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/app/aletheia-swindon-town.htm",
+      "source": "KarstenEvans/aletheia-knowledge:app/aletheia-swindon-town.htm",
+      "status": "source-confirmed-live-unverified"
+    },
+    {
+      "id": "songs",
+      "collection": "cabinet",
+      "group": "Experiments",
+      "title": "Song Catchphrases",
+      "description": "A sideways journey through memorable phrases in music.",
+      "url": "https://karstenevans.github.io/aletheia-knowledge/app/aletheia-song-catchphrases.htm",
+      "source": "KarstenEvans/aletheia-knowledge:app/aletheia-song-catchphrases.htm",
+      "status": "source-confirmed-live-unverified"
+    }
+  ]
+}
