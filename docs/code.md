@@ -202,7 +202,7 @@ Runtime fragment: `/footer.html`.
 
 The footer is deliberately unobtrusive and normally stays to one line on desktop:
 
-`Home · Resources · About · Contact · Privacy · Affiliate Disclosure`
+`Home · Discover · Resources · About · Contact · Privacy · Affiliate Disclosure`
 
 `/assets/js/site.js` loads the fragment and:
 - replaces an existing `footer.site-footer` when one is present;
@@ -239,3 +239,8 @@ Rules:
 - Aletheia Knowledge Markdown remains free of affiliate tracking code. Affiliate conversion belongs only to the HTML/resource layer.
 
 This rule applies to Swindon.org.uk resource pages, Aletheia Knowledge resource pages, and any other page intentionally carrying affiliate-capable merchant links.
+
+
+## Worldwide Discover front door (staged 29 Sep 2026)
+
+Canonical build specification: `pages/discover.md` → `site/discover/index.html`. Normal directory route `/discover/` is linked quietly from the shared footer when page and fragment are released together. It is a worldwide manual-location/source-search starting point, not a city-clone or a provider-verified feed. Keep the existing Swindon homepage search as its own primary task. The draft carries `noindex` until the canonical public route and preview are checked. Do not add automatic copied AI prompts/affiliate sources to evidence links.
