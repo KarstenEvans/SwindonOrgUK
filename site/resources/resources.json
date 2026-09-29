@@ -16,6 +16,12 @@
       "url": "/resources/affiliate-disclosure.htm",
       "type": "site-information",
       "description": "How Swindon.org.uk identifies and uses affiliate links, including Awin."
+    },
+    {
+      "title": "Affiliate Tools: free website and keyword research",
+      "url": "https://karstenevans.github.io/aletheia-app/aletheia-site-audit/affiliate-tools.htm",
+      "type": "external-resource",
+      "description": "Official Google/Bing site tools, practical free-first website research and ethical affiliate guidance. Opens the shared Aletheia page; no paid suite."
     }
   ]
 }
