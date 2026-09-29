@@ -46,3 +46,12 @@ The single-page report scored 31/100 on an editorial markup rubric; **not** actu
 **Acceptance:** Every changed page remains usable, source specs stay in sync with rendition, links/answer/source metadata are crawlable, no SEO boilerplate or fabricated schema appears, approval precedes publication, and production is checked before any claim of success.
 
 **Related site specifications:** `AGENTS.md`, `docs/swindonorguk-gui.md` (answer-ready, cross-pollination, front door), `docs/code.md`, `ideas.md`.
+
+## Affiliate Tools public cross-link (2026-09-29)
+
+Linked the single Aletheia Affiliate Tools URL from `site/resources/index.htm` and registered it as an external resource in `site/resources/resources.json`. The canonical HTML belongs to `KarstenEvans/aletheia-app/aletheia-site-audit/affiliate-tools.htm`, also in the Site Audit hamburger menu. It is a free-first website/keyword/affiliate research directory, not a live Google/Bing login integration or a locally duplicated HTML page.
+
+- [x] Source link and resource manifest updated.
+- [ ] Confirm deployed Swindon.org.uk Resources source follows the repository copy after the site migration; do not claim the production path is synced from a source commit alone.
+- [ ] When the actual AI4U page source is present and reconciled, optionally add one `Affiliate Tools` entry pointing to the same shared URL. Do not create a dead `/ai4u/` route or duplicate the tool content while the production front door is uncertain.
+- [ ] Add one shared `Tools → Affiliate Tools` item to Aletheia Discover when that worldwide Priority #001 app is actually built.
