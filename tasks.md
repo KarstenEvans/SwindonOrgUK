@@ -7,7 +7,7 @@ Thalia Protocol: https://github.com/KarstenEvans/thalia-protocol/blob/main/THALI
 
 ## PRIORITY TASK #001 — Aletheia Atlas worldwide discovery and common navigation
 
-**Priority:** P0 / NUMBER ONE. **Status:** IN PROGRESS — specification and backlog, not verified public release. **Date:** 29 September 2026. **Owner direction:** worldwide location-aware multilingual Aletheia, never a separate cloned site per city. Related: `ideas.md` Idea #001; app repository Atlas task/spec.
+**Priority:** P0 / NUMBER ONE. **Status:** IN PROGRESS — specification and backlog, not verified public release. Name not decided: Atlas / Mystika / Discover working label. **Date:** 29 September 2026. **Owner direction:** worldwide location-aware multilingual Aletheia, never a separate cloned site per city. Related: `ideas.md` Idea #001; app repository Atlas task/spec.
 
 - [x] Confirm the owner direction: one worldwide AI discovery system; Swindon is the starting/front-door implementation, not a geographic limit.
 - [x] Record a canonical Atlas scope and cross-project division; provisional name only.
