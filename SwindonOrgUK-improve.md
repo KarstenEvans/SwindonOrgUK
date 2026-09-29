@@ -9,6 +9,12 @@
 **Source repository:** https://github.com/KarstenEvans/SwindonOrgUK  
 **Companion backlog:** `tasks.md`
 
+## Priority override — Atlas worldwide discovery (29 September 2026)
+
+**Idea #001 / Task #001.** This is the owner's top initiative and supersedes any assumption below that Aletheia must be a Swindon-only or multi-city-clone publisher. Build one Aletheia Atlas location-aware and multilingual discovery interface. Swindon.org.uk remains the existing trusted local/home site and an entry point, but the Atlas service can research any chosen destination. Use `Discover [place]` rather than independent country/city sites. Follow `ideas.md` / `tasks.md` #001 and the app-side Atlas canonical specification.
+
+First pilot the shared accessible sticky navigation without breaking hamburger/Roundabout or current links. Add explicit editable location (device geolocation only by consent), language/topic selectors, fast and honest search/handoff, real sources/dates, free-first results, dated events, social previews, SEO/AEO/GEO, and a single global editorial/blog/news stream with optional local filters. Do not generate thousands of thin city pages, fabricate researched stories, treat paid affiliate links as evidence or auto-publish without human review. Reconcile current PC/live version against this incomplete GitHub migration seed before editing production HTML. Status: specified/queued, not claimed live.
+
 ## When invoked
 
 If supplied with a page, section, repository or site:
