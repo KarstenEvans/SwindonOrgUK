@@ -2,6 +2,29 @@
 
 Living ideas register for **Swindon.org.uk**. Keep ideas here until they are promoted into a canonical page specification or shared component.
 
+## PRIORITY IDEA #001 — Aletheia Atlas: one worldwide, location-aware discovery engine (29 September 2026)
+
+**Status:** APPROVED DIRECTION / NAME PROVISIONAL; implementation is separately staged in `tasks.md`.
+**Seed:** [Secret London's Food & Drink](https://secretldn.com/food-drink/) and [Secret Media Network](https://secretmedianetwork.com/en/) as UI/editorial reference, **not** copied content, brand or per-city business model.
+
+Aletheia is a **worldwide AI research/discovery experience**, hosted/introduced from Swindon.org.uk but not restricted to Swindon or Britain. Do **not** clone a site/editor/team/newsletter for each city. The same single interface accepts any explicitly chosen location or destination (e.g. Swindon, Cardiff, Bristol, Oslo, Bangkok, Ayutthaya or Guatemala) and selected response language. The person may ask for another place without exposing their own location. Coarse device location is optional and consent-gated; an editable manual place works by default. Handle ambiguous names and locale/time zone accurately, and allow local-language originals alongside translations.
+
+**Provisional project name:** Aletheia Atlas; primary public action: **Discover with Aletheia**. The Greek phrase for Local Truth is `Τοπική Αλήθεια` (Topiki Aletheia), but the geographic scope of this project is intentionally wider. Naming remains subject to owner approval and availability checking.
+
+**Borrow, adapt, and improve:** a readable sticky mobile/desktop header with preserved hamburger/Roundabout; location-aware Discover [place] search; topic filters for food, events, free things, history, news, services and resources; attractive original social previews; source and publisher attribution; actual posted/updated/checked dates and time-zone-safe event expiration; helpful visible answers; appropriate SEO/AEO/GEO titles, Open Graph and truthful page-specific JSON-LD; working ordinary `href` anchors; mobile/Safari accessibility and fast loading.
+
+**Research/publishing contract:** retrieve current official/local/independent sources on demand; do not claim a live search when a provider is unavailable; distinguish discovery suggestions from checked facts and source language from translated summary. Aletheia Protocol governs receipts/conflicts/uncertainty. Preserve a human review gate for any persistent page or automated sharing, rather than producing high-volume generic generated local posts. Follow copyright and access rules, link to creators, don't copy their article/images.
+
+**Funding and editorial:** core access/information free and free-first suggestions ahead of paid ones. Disclose any **approved** affiliate links beside them, keep source links untracked, and do not let commission drive factual conclusions or recommendation order. No required membership, paid API or newsletter subscription. One Aletheia-wide blog/newsletter/editorial stream with optional location and language filters; the existing Swindon stream may be a filtered view. No per-place newsletters unless later genuinely justified by users. Local and international news are opt-in topics, not pre-generated duplicate sites.
+
+**Scope split:** `KarstenEvans/aletheia-app` owns Atlas runnable app and canonical page specification; `KarstenEvans/aletheia-knowledge` stores any independently verified reusable knowledge (not uncontrolled city scraping); `SwindonOrgUK` owns public shell, links, SEO/front-door and adoption of shared header. Preserve existing Swindon identity as the original hometown implementation; maintain source/affiliate separation and canonical URLs. GitHub is master; reconcile newer PC/production before touching actual site HTML.
+
+**Milestones:** (1) baseline + shared navigation spec + working static front end; (2) consent/manual location + language/topic + result-first free search/handoff; (3) optional live provider adapter with checked-source/date cards and honest failures; (4) editorial/blog/news/event pipeline; (5) social/SEO/structured metadata and cross-browser/live tests. Do not advertise stages 3–5 as running before they are verified.
+
+**Acceptance:** choose a place other than Swindon and a language; get a useful search path and honest provenance; return to the same task; mobile sticky nav does not cover results; original static pages are crawlable; no city copies, invented business/event details, paid gates, or covert affiliate evidence.
+
+See companion `tasks.md` Task #001, `SwindonOrgUK-improve.md` and app's future `aletheia-atlas/` specification.
+
 ## Working architecture
 
 - Swindon.org.uk remains the simple trusted front door for the Swindon implementation.
