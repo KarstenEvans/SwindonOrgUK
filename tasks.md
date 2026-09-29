@@ -12,6 +12,7 @@ Thalia Protocol: https://github.com/KarstenEvans/thalia-protocol/blob/main/THALI
 - [x] Confirm the owner direction: one worldwide AI discovery system; Swindon is the starting/front-door implementation, not a geographic limit.
 - [x] Record a canonical Atlas scope and cross-project division; provisional name only.
 - [ ] Reconcile the current live website and newer PC clone with GitHub migration seed before touching homepage/shared shell. Preserve hamburger, Roundabout, footer, 900 × 760 secondary-window rule, Awin once where applicable.
+- [x] Stage a non-destructive Discover integration guide (`docs/discover-quick-wins.md`): sticky-header CSS pattern, single-home-CTA placement, OG/social preview requirements, sources/freshness, release QA. In review branch `feature/discover-quick-wins-20260929`; NOT applied to live/PC HTML.
 - [ ] Build/test accessible sticky header + horizontal mobile topic menu without overlays; preserve normal anchors, location-independent global identity and Discover action.
 - [ ] Add Discover [chosen place]: explicit place selection with ambiguity handling; optional consent-gated coarse location; preferred language; location-aware topic/search controls; no city-specific copies.
 - [ ] Implement free-first current results with official/local independent source links, evidence/uncertainty, original language, checked date and clear status when web/provider is unavailable. Search/handoff fallback must never masquerade as verified returned results.
