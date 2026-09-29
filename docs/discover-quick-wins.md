@@ -68,3 +68,7 @@ One Aletheia blog/newsletter/RSS stream with optional place/topic/language filte
 - [ ] Track checked source dates, correct time-zone events and close human review gate before blog/news content is published.
 
 GitHub draft and passing syntax checks are not evidence that Swindon production has changed.
+
+## Implementation checkpoint (29 September 2026)
+
+A standalone `site/discover/index.html` and canonical `pages/discover.md` are now staged on this PR branch, with one unobtrusive `/discover/` link in the shared `site/footer.html`. Uses a real HTML mobile details menu, sticky topical strip, manual global place/language/topic/free-first search links, selected-provider copy/open AI handoff and visible FAQ/resource links. Draft noindex remains until release. Reconcile the newer production homepage before adding its Discover CTA. Review device/browser, source link and OG image checks before merge/deployment; static code is not live verification.
