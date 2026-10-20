@@ -55,3 +55,13 @@ Linked the single Aletheia Affiliate Tools URL from `site/resources/index.htm` a
 - [ ] Confirm deployed Swindon.org.uk Resources source follows the repository copy after the site migration; do not claim the production path is synced from a source commit alone.
 - [ ] When the actual AI4U page source is present and reconciled, optionally add one `Affiliate Tools` entry pointing to the same shared URL. Do not create a dead `/ai4u/` route or duplicate the tool content while the production front door is uncertain.
 - [ ] Add one shared `Tools → Affiliate Tools` item to Aletheia Discover when that worldwide Priority #001 app is actually built.
+
+## Proposed AI visibility front door (20 October 2026)
+
+- [x] Add `pages/ai-visibility.md` build specification and `site/ai-visibility.htm` preview HTML to a review branch.
+- [ ] Reconcile the repository mirror with production Fasthosts source before publishing or adding navigation.
+- [ ] Check real production robots.txt, sitemap.xml, HTTP/HTTPS host redirects, TLS and named bot responses with logs or owner webmaster tools.
+- [ ] Correct only evidenced crawler/security conflicts, preserving public/private boundaries. Do not infer a domain-wide blacklist or a Fasthosts-wide block from one failed AI visit.
+- [ ] Once published, test canonical URL, menu link, sitemap, mobile readability and AI citation accuracy. The page is not yet deployed by this branch.
+
+Source research: `KarstenEvans/aletheia-knowledge/knowledge/aletheia-ai-visibility-trust-gate.md`; worldwide explainer: `KarstenEvans/aletheia/ai-visibility/index.html` (proposed).
