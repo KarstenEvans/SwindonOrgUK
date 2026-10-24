@@ -58,3 +58,14 @@ Read:
 3. root `docs/swindonorguk-gui.md` only for shared technical/accessibility principles, not Swindon branding;
 4. current Aletheia app/knowledge/protocol repositories before linking or describing their capabilities.
 
+
+
+## Initial creative and practical collections (review-staged, 29 September 2026)
+
+- `index.html`: independent prototype front door; remains noindex until deployed/reviewed.
+- `cabinet/index.html` and `cabinet/index-page.md`: **Cabinet of Curiosities**, the first online creative collection, with six existing original destinations.
+- `collection-identities.md`: saves the exact approved descriptions and search-reference/production briefs for **Aletheia Emporium** (practical) and **Cabinet of Curiosities** (creative). The two earlier dynamically displayed example photos are **not** stored/owned image assets. Do not represent the decorative CSS cabinet as a physical photo.
+- `collections.json`: curated six Cabinet + eight Emporium inventory candidates. Links are repository-source-confirmed, not claimed live-verified.
+- `cabinet/toomorrowman-cabinet-story-seed.md`: future photo-by-photo ToomorrowMan adventure once actual cabinet/object photographs are provided.
+
+Keep the main public identity Aletheia; don't duplicate a city site. The Emporium gets its own page later, after the Cabinet pilot is reviewed. No draft public/footer links before the subdomain is deployed and fetched.

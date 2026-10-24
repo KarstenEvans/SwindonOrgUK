@@ -25,6 +25,14 @@ Aletheia is a **worldwide AI research/discovery experience**, hosted/introduced 
 
 See companion `tasks.md` Task #001, `SwindonOrgUK-improve.md` and app's future `aletheia-atlas/` specification.
 
+## Confirmed creative and practical collections — Aletheia Cabinet & Emporium (29 September 2026)
+
+The owner approved **two complementary destinations**. **Aletheia Emporium** is the practical collection: books, book lists, audiobooks, guides, resources, useful websites, downloadable materials and links to specialist Aletheia apps. **The Cabinet of Curiosities** is the creative collection: illustrated history presentations, animated HTML stories, unusual discoveries, interactive experiments and future seasonal productions. Build Cabinet first, seeded with existing published-source Aletheia entries. Emporium follows. Related footer links should be small, contextually relevant and normally at the bottom; don't make source citations into affiliate links.
+
+The two earlier example-image **search references and exact approved descriptions** are preserved in `aletheia/collection-identities.md`. The example photographs themselves are not acquired reusable files; no assertion of ownership or licence. First Cabinet HTML at `aletheia/cabinet/index.html`, with canonical build specification in `aletheia/cabinet/index-page.md`; curated entries `aletheia/collections.json`. A basic independent Aletheia landing page at `aletheia/index.html`. All are staged on the review branch, not live deployment.
+
+Future **ToomorrowMan and the Cabinet of Curiosities** story: the owner expects a physical cabinet, but its arrival and contents are not yet documented. Collect approved photographs once available and write one fictional scene plus independently sourced factual object description per photograph, visibly separate fact and fiction. See `aletheia/cabinet/toomorrowman-cabinet-story-seed.md`. No fictional arrival statement used as a factual claim.
+
 ## Working architecture
 
 - Swindon.org.uk remains the simple trusted front door for the Swindon implementation.

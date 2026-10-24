@@ -25,6 +25,17 @@ Thalia Protocol: https://github.com/KarstenEvans/thalia-protocol/blob/main/THALI
 
 **Release gate:** working prototype is not a live AI/web verifier. No auto-publishing. No replacing the existing production homepage from an incomplete GitHub mirror.
 
+## Cabinet / Emporium collections — first online collection staged 29 September 2026
+
+- [x] Confirm two names and distinct roles: Cabinet = original creative publications; Emporium = practical books/guides/other resources. Cabinet is first.
+- [x] Save exact approved descriptions and earlier example-image **visual references/briefs** in `aletheia/collection-identities.md`. Original dynamic example image files NOT acquired or licensed; separate visual asset approval pending.
+- [x] Create curated inventory `aletheia/collections.json`, standalone Cabinet HTML `aletheia/cabinet/index.html`, page spec and lightweight shared CSS, and basic independent `aletheia/index.html`; these are on the **review branch**, not production.
+- [x] Record the future ToomorrowMan photo-by-photo story seed without assuming physical cabinet delivered.
+- [ ] Verify each public publication URL, original images/licences and asset hosting; replace provisional CSS illustration with approved source/commissioned artwork when available.
+- [ ] Check mobile/desktop/Safari, keyboard/filter, metadata/social images, subdomain canonical/robots/sitemap and exact live deployment. Remove draft `noindex` only on approved release.
+- [ ] After Cabinet is public/verified, link it discreetly from relevant Swindon and Aletheia pages and create a separate Emporium page with relevant book lists/resources, clear affiliate disclosure and one useful collection page rather than intrusive ads.
+- [ ] When actual cabinet/photos arrive, collect object permissions/alt text, independently research each item, then draft ToomorrowMan story scenes with factual/fiction separation and owner review.
+
 ## SEO / AEO / GEO work package, from 27 September 2026 homepage rubric
 
 Source: https://therankcollective.com/audit/ed33b25e-03b5-4066-8e14-d520fa22bb0b

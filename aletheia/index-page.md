@@ -2,7 +2,7 @@
 
 **Canonical URL:** `https://aletheia.swindon.org.uk/`  
 **Rendered file:** `index.html`  
-**Status:** proposed public-site specification  
+**Status:** first static Aletheia front door rendered on review branch; noindex preview / no confirmed deployment  
 **Brand:** Aletheia, not Swindon.org.uk
 
 ## Purpose
@@ -148,3 +148,8 @@ If a path alias is needed, use a permanent redirect to the subdomain.
 - no duplicate public home exists under a second hostname/path;
 - Android, Windows and Safari/WebKit tests are recorded separately;
 - live deployment is not claimed until the subdomain is actually configured and fetched.
+
+
+## First build checkpoint: online Cabinet before physical cabinet (29 September 2026)
+
+`aletheia/index.html` now renders a restrained independent worldwide Aletheia homepage with a strong real internal route to `cabinet/` and source-checked public-path candidates for Apps, Knowledge and Swindon. Emporium is displayed explicitly as **coming next**, not linked to a non-existent page. One readable H1 and direct value statement, crawlable static links, accurate capability scope. The CSS is `assets/style.css`. `noindex,nofollow` protects the prototype until deployment/canonical/robots/sitemap/social artwork verification. The Cabinet static page has its own `cabinet/index-page.md` source of truth and stores both earlier visual-reference briefs in `collection-identities.md`. Neither page asserts physical cabinet delivery or prior example-photo ownership.
