@@ -1,0 +1,575 @@
+{
+  "version": "0.1.0",
+  "status": "draft-review-no-production-deployment",
+  "asOf": "2026-11-10",
+  "editorialPolicy": "Generic public education only; never use personal conversations or private medical history; medical claims require linked primary authoritative evidence and human/clinical review before publication; no affiliate links in medical evidence sections.",
+  "health": [
+    {
+      "slug": "diabetes",
+      "title": "Diabetes: type 1 and type 2",
+      "group": "Diabetes",
+      "summary": "Diabetes means blood glucose is too high, but type 1 and type 2 have different causes and treatments.",
+      "points": [
+        "Type 1 is an autoimmune condition. Insulin is essential; dietary changes do not replace it.",
+        "Type 2 involves insulin resistance and/or insufficient insulin. Management may include food, activity, medicines and glucose monitoring.",
+        "Unexplained thirst, frequent urination, fatigue or weight loss warrant prompt assessment. New symptoms with vomiting, confusion or rapid breathing need emergency assessment."
+      ],
+      "caution": "Do not assume a person's diabetes type from age or body weight.",
+      "sources": [
+        {
+          "title": "NHS: Type 1 diabetes",
+          "url": "https://www.nhs.uk/conditions/type-1-diabetes/what-is-type-1-diabetes/"
+        },
+        {
+          "title": "NHS: Type 2 diabetes",
+          "url": "https://www.nhs.uk/conditions/type-2-diabetes/what-is-type-2-diabetes/"
+        }
+      ],
+      "related": [
+        "diabetes-type-1",
+        "diabetes-type-2",
+        "fasting"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "diabetes-type-1",
+      "title": "Type 1 diabetes: an essential guide",
+      "group": "Diabetes",
+      "summary": "Type 1 diabetes is an autoimmune condition in which the body cannot produce enough insulin; regular insulin treatment is essential.",
+      "points": [
+        "Symptoms can develop quickly: needing to urinate, thirst, tiredness and unexpected weight loss.",
+        "Daily insulin, glucose monitoring and education in food/activity effects are core parts of management.",
+        "Diabetic ketoacidosis can become life-threatening. Vomiting, abdominal pain, deep breathing or confusion with diabetes symptoms call for emergency help."
+      ],
+      "caution": "Fasting or supplements must never replace insulin; discuss major diet changes with the specialist diabetes team.",
+      "sources": [
+        {
+          "title": "NHS: What is type 1?",
+          "url": "https://www.nhs.uk/conditions/type-1-diabetes/what-is-type-1-diabetes/"
+        },
+        {
+          "title": "NHS: Symptoms and urgent signs",
+          "url": "https://www.nhs.uk/conditions/type-1-diabetes/symptoms/"
+        }
+      ],
+      "related": [
+        "diabetes",
+        "fasting"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "diabetes-type-2",
+      "title": "Type 2 diabetes: what helps?",
+      "group": "Diabetes",
+      "summary": "Type 2 diabetes involves insulin resistance and/or reduced insulin production; management is individual and may include lifestyle change and medicines.",
+      "points": [
+        "The NHS emphasises healthy eating, movement, weight management when appropriate, and prescribed medication.",
+        "Complication prevention includes blood pressure, cholesterol, kidney, eye and foot checks.",
+        "Remission is possible for some people, but it is not a universal cure and does not justify stopping prescribed medicine independently."
+      ],
+      "caution": "Seek prompt advice for new foot pain, swelling, ulcers or rapidly worsening glucose-related symptoms.",
+      "sources": [
+        {
+          "title": "NHS: What is type 2?",
+          "url": "https://www.nhs.uk/conditions/type-2-diabetes/what-is-type-2-diabetes/"
+        },
+        {
+          "title": "Diabetes UK: Fasting and remission",
+          "url": "https://www.diabetes.org.uk/about-diabetes/type-2-diabetes/remission/intermittent-fasting-for-remission"
+        }
+      ],
+      "related": [
+        "diabetes",
+        "fasting",
+        "foot-and-ankle"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "fasting",
+      "title": "Intermittent fasting: benefits and risks",
+      "group": "Nutrition",
+      "summary": "Intermittent fasting changes when people eat; it may help some people control energy intake or weight, but results vary and it is not suitable for everyone.",
+      "points": [
+        "Common approaches include time-restricted eating and alternate-day variations; there is no single best plan for all people.",
+        "People taking insulin or medicines that can cause low glucose should seek medication advice before fasting.",
+        "A balanced diet, hydration and a sustainable routine matter more than a fashionable fasting label."
+      ],
+      "caution": "Pregnancy, eating disorder history, frailty and some medical treatments require individual clinical advice before fasting.",
+      "sources": [
+        {
+          "title": "Diabetes UK: Intermittent fasting",
+          "url": "https://www.diabetes.org.uk/about-diabetes/type-2-diabetes/remission/intermittent-fasting-for-remission"
+        },
+        {
+          "title": "UK diet search analysis, methodology and estimates",
+          "url": "https://www.theindependentpharmacy.co.uk/weight-loss/guides/uk-most-googled-diets"
+        }
+      ],
+      "related": [
+        "diabetes-type-2",
+        "gut-microbiome"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "supplements",
+      "title": "Supplements: what is worth checking?",
+      "group": "Nutrition",
+      "summary": "Supplements can correct specific shortfalls, but many marketed benefits are unproven and excessive doses can cause harm.",
+      "points": [
+        "In the UK, adults are advised to consider 10 micrograms of vitamin D daily in autumn and winter; some groups need it year-round.",
+        "Vitamin B12, iron or other nutrients may need assessment where deficiency risk or symptoms exist.",
+        "A claimed benefit is not the same as a verified clinical outcome. Check dose, interactions, quality and authorised marketing claims."
+      ],
+      "caution": "Do not use supplements instead of prescribed treatment. Ask a pharmacist about possible interactions.",
+      "sources": [
+        {
+          "title": "NHS: Vitamin D",
+          "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/"
+        },
+        {
+          "title": "ASA/CAP: Supplement health claims rules",
+          "url": "https://www.asa.org.uk/type/non_broadcast/code_section/15.html"
+        }
+      ],
+      "related": [
+        "health-claims",
+        "gut-microbiome",
+        "healthy-ageing"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "gut-microbiome",
+      "title": "Gut microbiome: fibre, inulin, GOS and butyrate",
+      "group": "Nutrition",
+      "summary": "Dietary fibres feed different gut microbes. Fermentation can produce short-chain fatty acids, including acetate, propionate and butyrate, but effects vary between people.",
+      "points": [
+        "Prebiotic fibres include inulin, fructo-oligosaccharides and galacto-oligosaccharides (GOS). Food sources include leeks, onions, beans and some artichokes.",
+        "Increasing fibre too quickly can cause gas and bloating; smaller portions and gradual increases are often better tolerated.",
+        "Butyrate is one product of fermentation, not proof that a specific supplement prevents or cures disease. Research outcomes are variable."
+      ],
+      "caution": "Vinegar contains acetic acid but is not an established substitute for dietary fibre or a proven way to restore the microbiome after antibiotics.",
+      "sources": [
+        {
+          "title": "Nature Reviews Microbiology: Fibres and gut microbiome",
+          "url": "https://www.nature.com/articles/s41579-024-01108-z"
+        },
+        {
+          "title": "Review: Prebiotic fibres and individual response (2026)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42972020/"
+        }
+      ],
+      "related": [
+        "antibiotics-and-microbiome",
+        "supplements"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "antibiotics-and-microbiome",
+      "title": "Antibiotics, gut bacteria and diabetes claims",
+      "group": "Nutrition",
+      "summary": "Antibiotics can disturb gut microbes, but it has not been established that doxycycline itself causes type 2 diabetes.",
+      "points": [
+        "Observational studies have found associations between antibiotic exposure and subsequent diabetes, but these cannot prove the antibiotic caused the condition.",
+        "Doxycycline is a tetracycline-class antibiotic, but medicines in the same class may differ in effects and exposure; avoid assuming identical risks.",
+        "There is no validated prescription of extra fibre, vinegar, GOS, protein or butyrate that reliably prevents antibiotic-associated metabolic effects."
+      ],
+      "caution": "Never stop, avoid or self-start an antibiotic based on a microbiome hypothesis. Antibiotics can be essential for treating serious bacterial infections.",
+      "sources": [
+        {
+          "title": "Systematic review: Antibiotics and type 2 diabetes association",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34622400/"
+        },
+        {
+          "title": "NHS: Antibiotic side effects",
+          "url": "https://www.nhs.uk/medicines/antibiotics/side-effects/"
+        },
+        {
+          "title": "NHS: Probiotics evidence and limits",
+          "url": "https://www.nhs.uk/tests-and-treatments/probiotics/"
+        }
+      ],
+      "related": [
+        "gut-microbiome",
+        "diabetes-type-2",
+        "modic-changes"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "exercise-calisthenics",
+      "title": "Stretching and calisthenics at home",
+      "group": "Movement",
+      "summary": "Simple, comfortable movements and body-weight exercises can support flexibility, strength and balance, without expensive equipment.",
+      "points": [
+        "Start at a level that matches current mobility and choose a stable support for standing exercises.",
+        "Slowly increase repetitions and include movements for strength, balance and flexibility rather than aggressive stretching.",
+        "Stop activity that makes pain worse or causes dizziness, numbness or new weakness; seek professional assessment for concerning symptoms."
+      ],
+      "caution": "Anyone with recent injury, neurological symptoms or unexplained significant pain should obtain tailored physiotherapy/clinical advice.",
+      "sources": [
+        {
+          "title": "NHS: Flexibility exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/"
+        },
+        {
+          "title": "NHS: Balance exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/balance-exercises/"
+        }
+      ],
+      "related": [
+        "tai-chi",
+        "healthy-ageing",
+        "back-and-neck"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "tai-chi",
+      "title": "Tai Chi: gentle movement and balance",
+      "group": "Movement",
+      "summary": "Tai Chi uses slow, controlled movements and attention to posture and balance; it may provide an accessible route into regular physical activity.",
+      "points": [
+        "It can form part of strength, balance and flexibility activity, particularly for older adults.",
+        "Choose a suitable beginner class and adapt standing positions to personal ability.",
+        "Progress gradually and use nearby stable support if unsteady; activities should not increase pain."
+      ],
+      "caution": "Claims that Tai Chi cures medical conditions should be treated cautiously. Evidence and individual results vary.",
+      "sources": [
+        {
+          "title": "NHS: Physical activity guidelines older adults",
+          "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/"
+        },
+        {
+          "title": "NHS: Balance exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/balance-exercises/"
+        }
+      ],
+      "related": [
+        "exercise-calisthenics",
+        "healthy-ageing"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "back-and-neck",
+      "title": "Back and neck pain: where to start",
+      "group": "Back and neck",
+      "summary": "Most back and neck pain is non-specific and often improves, but persistent, severe or neurological symptoms need assessment.",
+      "points": [
+        "Gentle activity and adapting daily tasks often help uncomplicated back pain.",
+        "Possible causes include muscular strain, joint or disc problems and sometimes nerve irritation; symptoms alone rarely pinpoint one tissue.",
+        "New bladder or bowel dysfunction, numbness around the genitals or bottom, or severe progressive leg weakness are emergency warning signs."
+      ],
+      "caution": "High fever, rapidly worsening pain or feeling seriously unwell with back pain can signal infection: seek urgent assessment.",
+      "sources": [
+        {
+          "title": "NHS: Back pain",
+          "url": "https://www.nhs.uk/conditions/back-pain/"
+        },
+        {
+          "title": "NHS: Neck pain",
+          "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/"
+        }
+      ],
+      "related": [
+        "lumbar-back-pain",
+        "modic-changes",
+        "neck-pain"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "lumbar-back-pain",
+      "title": "Lumbar back pain and sciatica",
+      "group": "Back and neck",
+      "summary": "Lower-back pain can arise from several structures, and sciatica describes pain or neurological symptoms related to nerve irritation.",
+      "points": [
+        "Stay as active as reasonably possible; avoid prolonged bed rest for uncomplicated episodes.",
+        "A clinician can assess whether self-management, physiotherapy or specialist review is appropriate.",
+        "Imaging is not routinely needed for every episode; severe or progressive neurological signs change the urgency."
+      ],
+      "caution": "Seek emergency help for new bladder/bowel difficulties, saddle numbness or severe/progressive weakness, especially with bilateral symptoms.",
+      "sources": [
+        {
+          "title": "NICE NG59: Low back pain and sciatica",
+          "url": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations"
+        },
+        {
+          "title": "NHS: Back pain",
+          "url": "https://www.nhs.uk/conditions/back-pain/"
+        }
+      ],
+      "related": [
+        "back-and-neck",
+        "modic-changes",
+        "exercise-calisthenics"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "modic-changes",
+      "title": "Modic changes: inflammation, bacteria and antibiotics",
+      "group": "Back and neck",
+      "summary": "Modic changes are MRI findings at vertebral endplates. A low-grade bacterial explanation has been proposed for some cases but remains contested.",
+      "points": [
+        "Type 1 changes generally reflect bone-marrow oedema/inflammatory signal; type 2 changes predominantly fatty marrow signal.",
+        "Cutibacterium acnes, a common skin bacterium, has been studied as one possible contributor, but biopsy results and causation are disputed.",
+        "The larger double-blind AIM trial did not find a clinically important benefit from three months of antibiotics for chronic low-back pain with Modic changes."
+      ],
+      "caution": "Having acne or groin boils does not establish a spinal infection. Groin lesions can instead be hidradenitis suppurativa, which requires its own assessment. Do not self-treat Modic changes with doxycycline.",
+      "sources": [
+        {
+          "title": "BMJ AIM randomised trial",
+          "url": "https://www.bmj.com/content/367/bmj.l5654.long"
+        },
+        {
+          "title": "NHS: Hidradenitis suppurativa",
+          "url": "https://www.nhs.uk/conditions/hidradenitis-suppurativa/"
+        },
+        {
+          "title": "NICE: Low back pain and sciatica",
+          "url": "https://www.nice.org.uk/guidance/ng59/chapter/recommendations"
+        }
+      ],
+      "related": [
+        "lumbar-back-pain",
+        "antibiotics-and-microbiome"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "neck-pain",
+      "title": "Neck pain and stiffness",
+      "group": "Back and neck",
+      "summary": "Neck stiffness is often temporary, although persistent or worsening pain and neurological symptoms should be examined.",
+      "points": [
+        "Gentle movement and simple comfort measures can help uncomplicated neck pain.",
+        "Avoid unsafe driving or cycling if you cannot rotate your head properly.",
+        "New arm weakness, spreading numbness, gait changes or serious injury warrant medical assessment."
+      ],
+      "caution": "Avoid forcing the neck through painful ranges. Seek urgent care when neck pain follows major trauma or accompanies serious neurological symptoms.",
+      "sources": [
+        {
+          "title": "NHS: Neck pain and stiff neck",
+          "url": "https://www.nhs.uk/symptoms/neck-pain-and-stiff-neck/"
+        },
+        {
+          "title": "NHS: Flexibility exercises",
+          "url": "https://www.nhs.uk/live-well/exercise/flexibility-exercises/"
+        }
+      ],
+      "related": [
+        "back-and-neck",
+        "exercise-calisthenics"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "hips-and-legs",
+      "title": "Hip and leg pain: common causes and warning signs",
+      "group": "Lower limbs",
+      "summary": "Hip and leg pain can involve joints, tendons, muscles, circulation or nerves; an individual examination matters more than guessing from location.",
+      "points": [
+        "Hip stiffness and pain with walking can have several causes, including osteoarthritis or tendon problems.",
+        "Pain radiating from the back may be nerve-related; swollen or hot joints raise different concerns.",
+        "Balance and strengthening can help some mechanical problems, but should match the diagnosis and symptoms."
+      ],
+      "caution": "A hot swollen hip with fever needs urgent assessment; a severe injury with inability to bear weight needs emergency assessment.",
+      "sources": [
+        {
+          "title": "NHS: Hip pain in adults",
+          "url": "https://www.nhs.uk/symptoms/hip-pain/"
+        },
+        {
+          "title": "NHS: Back pain",
+          "url": "https://www.nhs.uk/conditions/back-pain/"
+        }
+      ],
+      "related": [
+        "foot-and-ankle",
+        "lumbar-back-pain",
+        "tai-chi"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "foot-and-ankle",
+      "title": "Foot and ankle pain: swelling, balance and diabetes",
+      "group": "Lower limbs",
+      "summary": "Foot or ankle pain often has a mechanical cause, but new warmth, redness, swelling or loss of sensation can need prompt assessment.",
+      "points": [
+        "Insoles, suitable shoes, gentle mobility and pacing may help some mechanical problems after assessment.",
+        "Changes in arch shape, weakness or numbness need assessment rather than a generic exercise plan.",
+        "People with diabetes and foot pain or swelling should seek timely professional help."
+      ],
+      "caution": "A hot swollen foot, rapidly worsening pain, fever, inability to walk or new colour change requires urgent assessment. Do not assume infection or Charcot without proper evaluation.",
+      "sources": [
+        {
+          "title": "NHS: Ankle pain",
+          "url": "https://www.nhs.uk/symptoms/foot-pain/ankle-pain/"
+        },
+        {
+          "title": "NHS: Swollen ankles and feet",
+          "url": "https://www.nhs.uk/conditions/oedema/"
+        }
+      ],
+      "related": [
+        "hips-and-legs",
+        "diabetes-type-2"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "healthy-ageing",
+      "title": "Healthy ageing: strength, balance and function",
+      "group": "Healthy ageing",
+      "summary": "Healthy ageing is less about a miracle compound and more about maintaining strength, mobility, social connection and management of preventable risks.",
+      "points": [
+        "Regular activity supports cardiovascular health, balance and muscle function.",
+        "For many older adults, weekly strength, flexibility and balance practice matters alongside aerobic activity.",
+        "Claims about biological-age reversal, longevity supplements or anti-ageing treatments require higher-quality human outcome evidence."
+      ],
+      "caution": "Match activity to ability, and discuss significant new symptoms or major programme changes with a clinician.",
+      "sources": [
+        {
+          "title": "NHS: Activity guidelines for older adults",
+          "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-older-adults/"
+        },
+        {
+          "title": "NHS: Vitamin D",
+          "url": "https://www.nhs.uk/conditions/vitamins-and-minerals/vitamin-d/"
+        }
+      ],
+      "related": [
+        "exercise-calisthenics",
+        "tai-chi",
+        "supplements"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    },
+    {
+      "slug": "health-claims",
+      "title": "How to check a health claim",
+      "group": "Consumer health",
+      "summary": "A convincing mechanism, attractive graph or testimonial does not prove a product meaningfully improves health.",
+      "points": [
+        "Find the exact claim, relevant population, measured outcome and quality of supporting human evidence.",
+        "Check whether the claim is about symptoms, a laboratory marker, risk reduction or an actual clinical outcome.",
+        "Look for independent replication, conflicts of interest, adverse effects and whether marketing wording is legally authorised."
+      ],
+      "caution": "Articles can discuss developing research without converting it into a product advertisement or implying supplements treat disease.",
+      "sources": [
+        {
+          "title": "ASA/CAP: Food and supplement claim rules",
+          "url": "https://www.asa.org.uk/type/non_broadcast/code_section/15.html"
+        },
+        {
+          "title": "ASA: Health claims advice",
+          "url": "https://www.asa.org.uk/advice-online/food-health-claims.html"
+        }
+      ],
+      "related": [
+        "supplements",
+        "antibiotics-and-microbiome"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft-not-clinically-reviewed"
+    }
+  ],
+  "jobs": [
+    {
+      "slug": "interview-questions",
+      "title": "Interview questions: prepare evidence, not scripts",
+      "group": "Jobs",
+      "summary": "Prepare examples of decisions, challenges and results using a concise situation-action-result structure; tailor evidence to the job.",
+      "points": [
+        "Read the job description and identify essential skills.",
+        "Prepare credible, measurable examples and questions about the role.",
+        "Practise answers aloud without memorising a rigid script."
+      ],
+      "caution": "Check each employer's current process and use original evidence, not invented credentials or roles.",
+      "sources": [
+        {
+          "title": "National Careers Service: Interview advice",
+          "url": "https://nationalcareers.service.gov.uk/careers-advice/interview-advice"
+        }
+      ],
+      "related": [
+        "research-employer",
+        "linkedin-profile"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft"
+    },
+    {
+      "slug": "research-employer",
+      "title": "How to research a prospective employer",
+      "group": "Jobs",
+      "summary": "Use official company information, current news and job descriptions to test whether the role, team and company are a fit.",
+      "points": [
+        "Start with the company's own site, careers page and filings where relevant.",
+        "Cross-check independent news, public product documentation and project history.",
+        "Prepare one or two specific questions informed by research; don't present rumours as fact."
+      ],
+      "caution": "Check each employer's current process and use original evidence, not invented credentials or roles.",
+      "sources": [
+        {
+          "title": "Companies House: Find and update company information",
+          "url": "https://find-and-update.company-information.service.gov.uk/"
+        }
+      ],
+      "related": [
+        "interview-questions",
+        "linkedin-profile"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft"
+    },
+    {
+      "slug": "linkedin-profile",
+      "title": "LinkedIn profile: position yourself for senior roles",
+      "group": "Jobs",
+      "summary": "A senior-level LinkedIn profile should communicate the problems you solve, the scale of your work and accountable outcomes.",
+      "points": [
+        "Use a headline that reflects the next role and your strongest specialist value.",
+        "Write an About section with responsibilities, business outcomes and relevant technical/leadership experience.",
+        "Verify every claim, keyword and achievement; tailor without overstating your experience."
+      ],
+      "caution": "Check each employer's current process and use original evidence, not invented credentials or roles.",
+      "sources": [
+        {
+          "title": "LinkedIn Help",
+          "url": "https://www.linkedin.com/help/linkedin"
+        }
+      ],
+      "related": [
+        "research-employer",
+        "interview-questions"
+      ],
+      "reviewed": "2026-11-10",
+      "reviewStatus": "editorial-draft"
+    }
+  ]
+}
