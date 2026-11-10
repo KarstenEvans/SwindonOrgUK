@@ -10,7 +10,8 @@
     let child=null;
     /* Compact viewport: let the browser manage the new tab/window. */
     if(window.matchMedia && window.matchMedia('(max-width:720px)').matches){
-      child=window.open(url.href,'_blank','noopener');
+      child=window.open(url.href,'_blank');
+      if(child){try{child.opener=null;}catch(e){}}
     }else if(window.Swindon && typeof window.Swindon.popup==='function'){
       /* The SAME named window is used for all subjects and is recreated when closed. */
       child=window.Swindon.popup(url.href,'swindonHelpTopic',900,760,true);
