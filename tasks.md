@@ -90,3 +90,5 @@ Source research: `KarstenEvans/aletheia-knowledge/knowledge/aletheia-ai-visibili
 - [ ] After explicit production approval: deploy, verify actual live URL, record PASS/PARTIAL/FAIL and dated screenshots/receipts.
 
 **Safety:** No personal medical history used. No proof that doxycycline causes diabetes. No recommendation to use antibiotics to treat Modic changes; AIM trial found no clinically meaningful effect. Fibres, vinegar, GOS or butyrate are not a validated antibiotic antidote. No automated medical or affiliate publication.
+
+**Review link:** https://github.com/KarstenEvans/SwindonOrgUK/pull/6 (draft pull request; not deployed).
