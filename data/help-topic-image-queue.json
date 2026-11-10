@@ -1,0 +1,193 @@
+{
+  "version": "0.1",
+  "generated": 0,
+  "items": [
+    {
+      "id": "illustration-diabetes",
+      "topic": "diabetes",
+      "state": "queued-not-generated",
+      "prompt": "Clear original schematic of glucose molecules, insulin signal and a cell, neutral educational style; avoid implying type 1 and type 2 are the same.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/diabetes.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-diabetes-type-1",
+      "topic": "diabetes-type-1",
+      "state": "queued-not-generated",
+      "prompt": "Original simplified pancreatic insulin and immune system concept diagram, clearly marked schematic, not a diagnostic image.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/diabetes-type-1.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-diabetes-type-2",
+      "topic": "diabetes-type-2",
+      "state": "queued-not-generated",
+      "prompt": "Clear original educational drawing of insulin resistance concept and lifestyle support, no misleading before/after.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/diabetes-type-2.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-fasting",
+      "topic": "fasting",
+      "state": "queued-not-generated",
+      "prompt": "Illustrated 24-hour clock with eating and overnight intervals, visually neutral, no 'cure' assertions.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/fasting.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-supplements",
+      "topic": "supplements",
+      "state": "queued-not-generated",
+      "prompt": "Vitamin bottles and whole food illustration comparing evidence types, no brand labels or disease claims.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/supplements.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-gut-microbiome",
+      "topic": "gut-microbiome",
+      "state": "queued-not-generated",
+      "prompt": "Original artistic cutaway of gut microbiome with labelled fibre to acetate, propionate and butyrate arrows; mark simplified model.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/gut-microbiome.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-antibiotics-and-microbiome",
+      "topic": "antibiotics-and-microbiome",
+      "state": "queued-not-generated",
+      "prompt": "Simple split diagram: antibiotic exposure and variable microbiome response; include uncertainty motif, no diabetes causation claim.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/antibiotics-and-microbiome.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-exercise-calisthenics",
+      "topic": "exercise-calisthenics",
+      "state": "queued-not-generated",
+      "prompt": "Two ordinary adults doing supported gentle standing bodyweight movements with counter for balance, safe neutral presentation.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/exercise-calisthenics.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-tai-chi",
+      "topic": "tai-chi",
+      "state": "queued-not-generated",
+      "prompt": "Original illustration of three phases of gentle Tai Chi balance movement, relaxed stance, no mystical healing claims.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/tai-chi.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-back-and-neck",
+      "topic": "back-and-neck",
+      "state": "queued-not-generated",
+      "prompt": "Simple spinal anatomy illustration highlighting cervical, thoracic and lumbar areas; no diagnosis-specific mark.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/back-and-neck.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-lumbar-back-pain",
+      "topic": "lumbar-back-pain",
+      "state": "queued-not-generated",
+      "prompt": "Schematic lower-spine side view highlighting lumbar vertebrae, disc and possible nerve irritation; anatomically plausible.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/lumbar-back-pain.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-modic-changes",
+      "topic": "modic-changes",
+      "state": "queued-not-generated",
+      "prompt": "Clearly labelled educational vertebral endplate MRI-concept diagram for Modic type 1 and type 2; clinical accuracy review required.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/modic-changes.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-neck-pain",
+      "topic": "neck-pain",
+      "state": "queued-not-generated",
+      "prompt": "Neutral labelled cervical spine and everyday ergonomics illustration, no forceful manipulation.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/neck-pain.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-hips-and-legs",
+      "topic": "hips-and-legs",
+      "state": "queued-not-generated",
+      "prompt": "Original simple leg-and-hip anatomical landmarks schematic, non-diagnostic, accessible labels.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/hips-and-legs.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-foot-and-ankle",
+      "topic": "foot-and-ankle",
+      "state": "queued-not-generated",
+      "prompt": "Educational foot and ankle bones/tendons overview with neutral swelling warning icon, anatomy review.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/foot-and-ankle.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-healthy-ageing",
+      "topic": "healthy-ageing",
+      "state": "queued-not-generated",
+      "prompt": "Diverse older adults walking, performing supported balance and social activities, non-stereotyped.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/healthy-ageing.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    },
+    {
+      "id": "illustration-health-claims",
+      "topic": "health-claims",
+      "state": "queued-not-generated",
+      "prompt": "Research paper and labelled evidence ladder alongside marketing claim with magnifying glass, neutral no commercial brands.",
+      "artDirection": "Original accessible flat vector illustration, restrained Swindon muted teal, legible at mobile width, 16:9, no text except essential medically reviewed labels",
+      "source": "user-authorised-topic-prompt",
+      "deliverable": "site/assets/images/health-topics/health-claims.webp",
+      "altTextRequired": true,
+      "editorialApprovalRequired": true
+    }
+  ]
+}
