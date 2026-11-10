@@ -65,3 +65,30 @@ Linked the single Aletheia Affiliate Tools URL from `site/resources/index.htm` a
 - [ ] Once published, test canonical URL, menu link, sitemap, mobile readability and AI citation accuracy. The page is not yet deployed by this branch.
 
 Source research: `KarstenEvans/aletheia-knowledge/knowledge/aletheia-ai-visibility-trust-gate.md`; worldwide explainer: `KarstenEvans/aletheia/ai-visibility/index.html` (proposed).
+
+## Health Topics + reusable Help Topic window (2026-11-10)
+
+**Status:** REVIEW BRANCH BUILT, NOT PUBLISHED. **Branch:** `feature/health-help-topics-2026-11`. **Scope:** `pages/health-topics.md`, `pages/jobs-topics.md`, `data/help-topics.json`, `data/help-topic-agents.json`, `data/help-topic-image-queue.json`, `site/health/topics/`, `site/jobs/topics/`, `site/assets/js/help-topics.js`, `site/assets/css/help-topics.css`.
+
+- [x] Read Swindon AGENTS/README/shared GUI/code, Aletheia overview/protocol, ideas and tasks.
+- [x] Observe existing production Health page at https://www.swindon.org.uk/health/; confirm GitHub repo does not currently contain its corresponding original /health/ page file.
+- [x] Research public-health sources and third-party UK demand indicators, recording data limitations.
+- [x] Write 17 non-personal public health article drafts, 3 job guide drafts, permanent HTML anchors and 2 topic hubs.
+- [x] Build named reusable 900×760 Help Topic selector adapter with mobile new-tab and blocked-popup link fallback; use shared popup function.
+- [x] Define 20 separate role instances (17 health, 3 jobs). **These are configured tasks only; none is an autonomous running background service.**
+- [x] Queue 17 illustration prompts; no generated or licensed image assets were claimed.
+- [ ] P0: Reconcile newest local PC/live Fasthosts /health/ and /jobs/ source with this incomplete GitHub mirror; do not overwrite newer live files.
+- [ ] P0: Clinical/editorial review of all medical articles, especially Modic/C. acnes, antibiotics/diabetes associations, Type 1 insulin risks and diabetes foot red flags. Correct drafts and check up-to-date evidence.
+- [ ] P1: Human review of job drafts and internal links; add interview, CV, LinkedIn and employer-research refinements.
+- [ ] P1: Integrate a compact selector into each actual production page *after* preserving existing page headers, buttons, navigation, search and Roundabout as relevant. Put Jobs help AFTER live vacancy results.
+- [ ] P1: Test named window reuse after switching and manually closing, moved-aside window behaviour, popup-blocked fallback, desktop Chrome/Edge/Firefox, Android Chrome, iOS/macOS Safari and no-JS links.
+- [ ] P1: Validate .htm routing/canonical/robots/sitemap on selected host; update sitemap and navigation only once routes exist.
+- [ ] P1: Run independent per-topic agent go-walkabout passes with conflict logs and review receipts; revise articles where better evidence warrants it; keep human signoff for medical content.
+- [ ] P2: Have an authorised illustration process generate **original** images from the queue; review anatomy, licensing, alt text and image weight before inclusion.
+- [ ] P2: Acquire real UK search demand from permitted keyword datasets, Google Trends export and/or Search Console, then reprioritise. Current third-party reports are *signals*, not verified site traffic or a Google top-keyword ranking.
+- [ ] P2: Consider reciprocal **Explore with Aletheia** links only to verified related public apps; avoid article duplication or linking raw repository code to visitors.
+- [ ] After explicit production approval: deploy, verify actual live URL, record PASS/PARTIAL/FAIL and dated screenshots/receipts.
+
+**Safety:** No personal medical history used. No proof that doxycycline causes diabetes. No recommendation to use antibiotics to treat Modic changes; AIM trial found no clinically meaningful effect. Fibres, vinegar, GOS or butyrate are not a validated antibiotic antidote. No automated medical or affiliate publication.
+
+**Review link:** https://github.com/KarstenEvans/SwindonOrgUK/pull/6 (draft pull request; not deployed).

@@ -1,0 +1,190 @@
+{
+  "version": "0.1.0",
+  "type": "manual-or-external-agent-jobs",
+  "activeAgents": 0,
+  "warning": "These are reproducible agent task definitions, not running services. An authorised orchestrator/provider and review workflow are required.",
+  "created": "2026-11-10",
+  "reusablePrompt": "agents/help-topic-researcher.md",
+  "agents": [
+    {
+      "id": "health-research-diabetes",
+      "category": "health",
+      "slug": "diabetes",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/diabetes.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-diabetes-type-1",
+      "category": "health",
+      "slug": "diabetes-type-1",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/diabetes-type-1.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-diabetes-type-2",
+      "category": "health",
+      "slug": "diabetes-type-2",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/diabetes-type-2.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-fasting",
+      "category": "health",
+      "slug": "fasting",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/fasting.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-supplements",
+      "category": "health",
+      "slug": "supplements",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/supplements.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-gut-microbiome",
+      "category": "health",
+      "slug": "gut-microbiome",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/gut-microbiome.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-antibiotics-and-microbiome",
+      "category": "health",
+      "slug": "antibiotics-and-microbiome",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/antibiotics-and-microbiome.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-exercise-calisthenics",
+      "category": "health",
+      "slug": "exercise-calisthenics",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/exercise-calisthenics.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-tai-chi",
+      "category": "health",
+      "slug": "tai-chi",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/tai-chi.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-back-and-neck",
+      "category": "health",
+      "slug": "back-and-neck",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/back-and-neck.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-lumbar-back-pain",
+      "category": "health",
+      "slug": "lumbar-back-pain",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/lumbar-back-pain.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-modic-changes",
+      "category": "health",
+      "slug": "modic-changes",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/modic-changes.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-neck-pain",
+      "category": "health",
+      "slug": "neck-pain",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/neck-pain.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-hips-and-legs",
+      "category": "health",
+      "slug": "hips-and-legs",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/hips-and-legs.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-foot-and-ankle",
+      "category": "health",
+      "slug": "foot-and-ankle",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/foot-and-ankle.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-healthy-ageing",
+      "category": "health",
+      "slug": "healthy-ageing",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/healthy-ageing.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "health-research-health-claims",
+      "category": "health",
+      "slug": "health-claims",
+      "sourceData": "data/help-topics.json",
+      "output": "site/health/topics/health-claims.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "jobs-research-interview-questions",
+      "category": "jobs",
+      "slug": "interview-questions",
+      "sourceData": "data/help-topics.json",
+      "output": "site/jobs/topics/interview-questions.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "jobs-research-research-employer",
+      "category": "jobs",
+      "slug": "research-employer",
+      "sourceData": "data/help-topics.json",
+      "output": "site/jobs/topics/research-employer.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    },
+    {
+      "id": "jobs-research-linkedin-profile",
+      "category": "jobs",
+      "slug": "linkedin-profile",
+      "sourceData": "data/help-topics.json",
+      "output": "site/jobs/topics/linkedin-profile.htm",
+      "state": "source-linked-draft-research-expansion-pending",
+      "publishAuthority": false
+    }
+  ]
+}

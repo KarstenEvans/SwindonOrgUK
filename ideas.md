@@ -497,3 +497,13 @@ Why this direction:
 Do not index both `swindon.org.uk/aletheia/` and `aletheia.swindon.org.uk/` with the same content. If the former exists, use it as a permanent redirect/alias to the subdomain.
 
 Possible future migration: if Aletheia later gains its own independent apex domain, the subdomain can redirect to that domain without reorganising the source tree.
+
+## Future idea: Evidence-linked reusable Help Topic library (10 November 2026)
+
+**Status:** PROPOSED, NOT APPROVED FOR PRODUCTION. A small selector on Health, Jobs and later other sections could use the same named `swindonHelpTopic` popup, while every entry remains its own searchable static HTML URL. Drafts and images sit in independent queues, with one source-limited researcher agent per topic and a separate illustration queue. Build once, review, reuse without changing the site's primary results-first navigation.
+
+**Evidence conflict tracker:** For sensitive topics, publish an explicit short 'why claims differ' panel when there are credible conflicting studies, e.g. bacterial Modic change hypothesis versus the BMJ AIM randomized trial. It must not become a diagnosis tool or a replacement for a clinician.
+
+**Search-demand review loop:** Prefer real Search Console/Bing queries after the site is live to expand pages genuinely useful to visitors; do not automatically create thousands of keyword pages from trend data. Keep marketing and medical editorial review separate. A future Aletheia Health Claims Checker link could offer deeper independent analysis where a verified public app exists.
+
+**Possible future cluster:** Healthy ageing ('the forever ageing war' working subject only), functional strength and mobility, sleep, healthy nutrition, better evidence on longevity compounds. Do not claim anti-ageing treatments work based on mechanistic studies alone.
