@@ -66,11 +66,11 @@ def validate() -> int:
         content = path.read_text(encoding="utf-8")
         canonical = f"https://swindon.org.uk/{category}/topics/{t['slug']}.htm"
         checks = {
-            "unique h1": len(re.findall(r"<h1(?:\\s|>)", content, re.I)) == 1,
+            "unique h1": len(re.findall(r"<h1(?:\s|>)", content, re.I)) == 1,
             "canonical": html.escape(canonical, quote=True) in content,
             "source links": 'class="sources"' in content and "<a href=" in content,
             "safe anchors": 'href="javascript:' not in content,
-            "visible summary": html.escape(t["summary"], quote=True) in content,
+            "visible summary": t["summary"] in html.unescape(content),
             "date": "2026-11-10" in content or "10 November 2026" in content,
         }
         problems.extend(f"{t['slug']}: {k}" for k, passed in checks.items() if not passed)
@@ -88,7 +88,7 @@ def validate() -> int:
         if not (ROOT / path).is_file():
             problems.append(f"Required missing: {path}")
     if problems:
-        print("FAIL:", *problems, sep="\\n- ")
+        print("FAIL:", *problems, sep="\n- ")
         return 1
     print(f"PASS: {len(topics)} HTML guides, {len(images)} image briefs, two hubs and shared resources.")
     print("NOT TESTED: live hosting, linked URL availability, clinical review, visual browser behaviour.")
